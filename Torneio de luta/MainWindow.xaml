@@ -1,0 +1,57 @@
+﻿<Window x:Class="Torneio_de_luta.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Torneio_de_luta"
+        mc:Ignorable="d"
+        Title="Torneio de Luta" Height="600" Width="800" HorizontalAlignment="Center" VerticalAlignment="Center" FontFamily="Arial">
+    <Grid>
+        <Button Content="Iniciar" HorizontalAlignment="Left" Margin="34,30,0,0" VerticalAlignment="Top" Click="Button_Click" Height="43" Width="75"/>
+        <ListBox Margin="80,111,524,277">
+
+            <ListBoxItem Height="31" BorderBrush="{DynamicResource {x:Static SystemColors.ActiveBorderBrushKey}}" Background="{DynamicResource {x:Static SystemColors.ActiveBorderBrushKey}}">
+                <CheckBox Content="CheckBox" RenderTransformOrigin="0.496,0.466" Height="25" Width="182" FontSize="20"/>
+            </ListBoxItem>
+
+            <ListBoxItem Height="32">
+                
+            </ListBoxItem>
+            <ListBoxItem Height="32">
+
+            </ListBoxItem>
+            <ListBoxItem Height="32">
+
+            </ListBoxItem>
+            <ListBoxItem Height="32">
+
+            </ListBoxItem>
+            <ListBoxItem Height="32">
+
+            </ListBoxItem>
+        </ListBox>
+        <ListBox Margin="302,111,302,277">
+
+            <ListBoxItem Height="31" BorderBrush="{DynamicResource {x:Static SystemColors.ActiveBorderBrushKey}}" Background="{DynamicResource {x:Static SystemColors.ActiveBorderBrushKey}}">
+                <CheckBox Content="CheckBox" RenderTransformOrigin="0.496,0.466" Height="25" Width="182" FontSize="20" Checked="CheckBox_Checked"/>
+            </ListBoxItem>
+
+            <ListBoxItem Height="32">
+
+            </ListBoxItem>
+            <ListBoxItem Height="32">
+
+            </ListBoxItem>
+            <ListBoxItem Height="32">
+
+            </ListBoxItem>
+            <ListBoxItem Height="32">
+
+            </ListBoxItem>
+            <ListBoxItem Height="32" Selected="ListBoxItem_Selected">
+
+            </ListBoxItem>
+        </ListBox>
+
+    </Grid>
+</Window>

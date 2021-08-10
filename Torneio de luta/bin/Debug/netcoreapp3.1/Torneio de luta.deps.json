@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Torneio de luta/1.0.0": {
+        "runtime": {
+          "Torneio de luta.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Torneio de luta/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
