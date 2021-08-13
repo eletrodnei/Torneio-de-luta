@@ -17,3 +17,26 @@ C:\Users\Rodnei\backup HD FG 01_08_21\Rodnei\OneDriveeletrodnei\C# projetos\Torn
 C:\Users\Rodnei\backup HD FG 01_08_21\Rodnei\OneDriveeletrodnei\C# projetos\Torneio de luta\Torneio de luta\obj\Debug\netcoreapp3.1\Torneio de luta.dll
 C:\Users\Rodnei\backup HD FG 01_08_21\Rodnei\OneDriveeletrodnei\C# projetos\Torneio de luta\Torneio de luta\obj\Debug\netcoreapp3.1\Torneio de luta.pdb
 C:\Users\Rodnei\backup HD FG 01_08_21\Rodnei\OneDriveeletrodnei\C# projetos\Torneio de luta\Torneio de luta\obj\Debug\netcoreapp3.1\Torneio de luta.genruntimeconfig.cache
+C:\Users\Rodnei\backup HD FG 01_08_21\Rodnei\OneDriveeletrodnei\C# projetos\Torneio-de-luta\Torneio de luta\bin\Debug\netcoreapp3.1\Torneio de luta.exe
+C:\Users\Rodnei\backup HD FG 01_08_21\Rodnei\OneDriveeletrodnei\C# projetos\Torneio-de-luta\Torneio de luta\bin\Debug\netcoreapp3.1\Torneio de luta.deps.json
+C:\Users\Rodnei\backup HD FG 01_08_21\Rodnei\OneDriveeletrodnei\C# projetos\Torneio-de-luta\Torneio de luta\bin\Debug\netcoreapp3.1\Torneio de luta.runtimeconfig.json
+C:\Users\Rodnei\backup HD FG 01_08_21\Rodnei\OneDriveeletrodnei\C# projetos\Torneio-de-luta\Torneio de luta\bin\Debug\netcoreapp3.1\Torneio de luta.runtimeconfig.dev.json
+C:\Users\Rodnei\backup HD FG 01_08_21\Rodnei\OneDriveeletrodnei\C# projetos\Torneio-de-luta\Torneio de luta\bin\Debug\netcoreapp3.1\Torneio de luta.dll
+C:\Users\Rodnei\backup HD FG 01_08_21\Rodnei\OneDriveeletrodnei\C# projetos\Torneio-de-luta\Torneio de luta\bin\Debug\netcoreapp3.1\Torneio de luta.pdb
+C:\Users\Rodnei\backup HD FG 01_08_21\Rodnei\OneDriveeletrodnei\C# projetos\Torneio-de-luta\Torneio de luta\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\Rodnei\backup HD FG 01_08_21\Rodnei\OneDriveeletrodnei\C# projetos\Torneio-de-luta\Torneio de luta\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\Rodnei\backup HD FG 01_08_21\Rodnei\OneDriveeletrodnei\C# projetos\Torneio-de-luta\Torneio de luta\obj\Debug\netcoreapp3.1\Torneio de luta_MarkupCompile.cache
+C:\Users\Rodnei\backup HD FG 01_08_21\Rodnei\OneDriveeletrodnei\C# projetos\Torneio-de-luta\Torneio de luta\obj\Debug\netcoreapp3.1\Torneio de luta_MarkupCompile.lref
+C:\Users\Rodnei\backup HD FG 01_08_21\Rodnei\OneDriveeletrodnei\C# projetos\Torneio-de-luta\Torneio de luta\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\Rodnei\backup HD FG 01_08_21\Rodnei\OneDriveeletrodnei\C# projetos\Torneio-de-luta\Torneio de luta\obj\Debug\netcoreapp3.1\Torneio de luta.g.resources
+C:\Users\Rodnei\backup HD FG 01_08_21\Rodnei\OneDriveeletrodnei\C# projetos\Torneio-de-luta\Torneio de luta\obj\Debug\netcoreapp3.1\Torneio de luta.AssemblyInfoInputs.cache
+C:\Users\Rodnei\backup HD FG 01_08_21\Rodnei\OneDriveeletrodnei\C# projetos\Torneio-de-luta\Torneio de luta\obj\Debug\netcoreapp3.1\Torneio de luta.AssemblyInfo.cs
+C:\Users\Rodnei\backup HD FG 01_08_21\Rodnei\OneDriveeletrodnei\C# projetos\Torneio-de-luta\Torneio de luta\obj\Debug\netcoreapp3.1\Torneio de luta.csproj.CoreCompileInputs.cache
+C:\Users\Rodnei\backup HD FG 01_08_21\Rodnei\OneDriveeletrodnei\C# projetos\Torneio-de-luta\Torneio de luta\obj\Debug\netcoreapp3.1\Torneio de luta.dll
+C:\Users\Rodnei\backup HD FG 01_08_21\Rodnei\OneDriveeletrodnei\C# projetos\Torneio-de-luta\Torneio de luta\obj\Debug\netcoreapp3.1\Torneio de luta.pdb
+C:\Users\Rodnei\backup HD FG 01_08_21\Rodnei\OneDriveeletrodnei\C# projetos\Torneio-de-luta\Torneio de luta\obj\Debug\netcoreapp3.1\Torneio de luta.genruntimeconfig.cache
+C:\Users\Rodnei\backup HD FG 01_08_21\Rodnei\OneDriveeletrodnei\C# projetos\Torneio-de-luta\Torneio de luta\bin\Debug\netcoreapp3.1\RestSharp.dll
+C:\Users\Rodnei\backup HD FG 01_08_21\Rodnei\OneDriveeletrodnei\C# projetos\Torneio-de-luta\Torneio de luta\obj\Debug\netcoreapp3.1\Torneio de luta.csproj.CopyComplete
+C:\Users\Rodnei\backup HD FG 01_08_21\Rodnei\OneDriveeletrodnei\C# projetos\Torneio-de-luta\Torneio de luta\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Rodnei\backup HD FG 01_08_21\Rodnei\OneDriveeletrodnei\C# projetos\Torneio-de-luta\Torneio de luta\obj\Debug\netcoreapp3.1\Torneio de luta.csproj.AssemblyReference.cache
+C:\Users\Rodnei\backup HD FG 01_08_21\Rodnei\OneDriveeletrodnei\C# projetos\Torneio-de-luta\Torneio de luta\obj\Debug\netcoreapp3.1\Torneio de luta.GeneratedMSBuildEditorConfig.editorconfig

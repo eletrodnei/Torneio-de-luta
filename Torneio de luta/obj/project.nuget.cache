@@ -1,8 +1,25 @@
 {
   "version": 2,
-  "dgSpecHash": "qcCwZO3XTW8Nt4SwO9GKORKgZlw4LKtTeCGztnAMtzZln6iXsfbvvMiE3XmxR3GkApNz2PemVNy1L+JytmFdvw==",
+  "dgSpecHash": "KhvTVqxPsfR+OymCfl3CtvZGpsKTrl2Sf6UkbLYb6sK9UTqjUOz5miMyW6XI7O8IOHTM3du7f/+WCvd19des0A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Rodnei\\backup HD FG 01_08_21\\Rodnei\\OneDriveeletrodnei\\C# projetos\\Torneio de luta\\Torneio de luta\\Torneio de luta.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Rodnei\\backup HD FG 01_08_21\\Rodnei\\OneDriveeletrodnei\\C# projetos\\Torneio-de-luta\\Torneio de luta\\Torneio de luta.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Rodnei\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Rodnei\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\Rodnei\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\Rodnei\\.nuget\\packages\\restsharp\\106.12.0\\restsharp.106.12.0.nupkg.sha512",
+    "C:\\Users\\Rodnei\\.nuget\\packages\\system.collections.nongeneric\\4.3.0\\system.collections.nongeneric.4.3.0.nupkg.sha512",
+    "C:\\Users\\Rodnei\\.nuget\\packages\\system.diagnostics.debug\\4.3.0\\system.diagnostics.debug.4.3.0.nupkg.sha512",
+    "C:\\Users\\Rodnei\\.nuget\\packages\\system.globalization\\4.3.0\\system.globalization.4.3.0.nupkg.sha512",
+    "C:\\Users\\Rodnei\\.nuget\\packages\\system.io\\4.3.0\\system.io.4.3.0.nupkg.sha512",
+    "C:\\Users\\Rodnei\\.nuget\\packages\\system.reflection\\4.3.0\\system.reflection.4.3.0.nupkg.sha512",
+    "C:\\Users\\Rodnei\\.nuget\\packages\\system.reflection.primitives\\4.3.0\\system.reflection.primitives.4.3.0.nupkg.sha512",
+    "C:\\Users\\Rodnei\\.nuget\\packages\\system.resources.resourcemanager\\4.3.0\\system.resources.resourcemanager.4.3.0.nupkg.sha512",
+    "C:\\Users\\Rodnei\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
+    "C:\\Users\\Rodnei\\.nuget\\packages\\system.runtime.extensions\\4.3.0\\system.runtime.extensions.4.3.0.nupkg.sha512",
+    "C:\\Users\\Rodnei\\.nuget\\packages\\system.text.encoding\\4.3.0\\system.text.encoding.4.3.0.nupkg.sha512",
+    "C:\\Users\\Rodnei\\.nuget\\packages\\system.threading\\4.3.0\\system.threading.4.3.0.nupkg.sha512",
+    "C:\\Users\\Rodnei\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -5,53 +5,441 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Torneio_de_luta"
         mc:Ignorable="d"
-        Title="Torneio de Luta" Height="600" Width="800" HorizontalAlignment="Center" VerticalAlignment="Center" FontFamily="Arial">
-    <Grid>
-        <Button Content="Iniciar" HorizontalAlignment="Left" Margin="34,30,0,0" VerticalAlignment="Top" Click="Button_Click" Height="43" Width="75"/>
-        <ListBox Margin="80,111,524,277">
+        WindowState="Maximized"
+        ScrollViewer.VerticalScrollBarVisibility="Auto"
+        ScrollViewer.HorizontalScrollBarVisibility="Auto"
+        Title="Torneio de Luta"  Height="1124" Width="1300" HorizontalAlignment="Center" VerticalAlignment="Center" FontFamily="Arial" d:DesignWidth="1300" d:DesignHeight="1124">
+    <ScrollViewer HorizontalScrollBarVisibility="Visible" VerticalScrollBarVisibility="Visible">
+        <Grid Margin="0" Width="1300" Height="1124">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="216"/>
+                <ColumnDefinition Width="216"/>
+                <ColumnDefinition Width="216"/>
+                <ColumnDefinition Width="216"/>
+                <ColumnDefinition Width="216"/>
+                <ColumnDefinition Width="216"/>
+                <ColumnDefinition Width="179"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="52.8"/>
+                <RowDefinition Height="153"/>
+                <RowDefinition Height="153"/>
+                <RowDefinition Height="153"/>
+                <RowDefinition Height="153"/>
+                <RowDefinition Height="153"/>
+                <RowDefinition Height="153"/>
+                <RowDefinition Height="153"/>
+                <RowDefinition Height="76.2"/>
+            </Grid.RowDefinitions>
+            <Button Content="Iniciar" Grid.Row="0" Grid.Column="0" Margin="11,10,70,10" Click="Button_Click" RenderTransformOrigin="0.52,0.489"/>
+            <StackPanel Orientation="Vertical" Margin="2,2,2,2" Grid.Row="1">
+                <CheckBox x:Name="checklutador1" 
+                          Content="Lutador1" 
+                          RenderTransformOrigin="0.496,0.466" FontSize="20" 
+                          Checked="Checklutador1_Checked"
+                          Unchecked="Checklutador1_Unchecked"
+                          Foreground="Black" Background="White"/>
+                <TextBox x:Name="Txtlutador1" Text="TextBox" TextWrapping="Wrap" TextChanged="Txtlutador1_TextChanged"/>
 
-            <ListBoxItem Height="31" BorderBrush="{DynamicResource {x:Static SystemColors.ActiveBorderBrushKey}}" Background="{DynamicResource {x:Static SystemColors.ActiveBorderBrushKey}}">
-                <CheckBox Content="CheckBox" RenderTransformOrigin="0.496,0.466" Height="25" Width="182" FontSize="20"/>
-            </ListBoxItem>
 
-            <ListBoxItem Height="32">
-                
-            </ListBoxItem>
-            <ListBoxItem Height="32">
+            </StackPanel>
 
-            </ListBoxItem>
-            <ListBoxItem Height="32">
+            <StackPanel Orientation="Vertical" Margin="2,2,2,2" Grid.Row="1" Grid.Column="1">
+                <CheckBox x:Name="checklutador2" 
+                          Content="Lutador2" 
+                          RenderTransformOrigin="0.496,0.466" FontSize="20" 
+                          Checked="Checklutador2_Checked"
+                          Unchecked="Checklutador2_Unchecked"
+                          Foreground="Black" Background="White"/>
+                <TextBox x:Name="Txtlutador2" Text="TextBox" TextWrapping="Wrap" TextChanged="Txtlutador2_TextChanged"/>
 
-            </ListBoxItem>
-            <ListBoxItem Height="32">
 
-            </ListBoxItem>
-            <ListBoxItem Height="32">
+            </StackPanel>
+            <StackPanel Orientation="Vertical" Margin="2,2,2,2" Grid.Row="1" Grid.Column="2">
+                <CheckBox x:Name="checklutador3" 
+                Content="Lutador3" 
+                RenderTransformOrigin="0.496,0.466" FontSize="20" 
+                Checked="Checklutador3_Checked"
+                Unchecked="Checklutador3_Unchecked"
+                Foreground="Black" Background="White"/>
+                <TextBox x:Name="Txtlutador3" Text="TextBox" TextWrapping="Wrap" TextChanged="Txtlutador3_TextChanged"/>
 
-            </ListBoxItem>
-        </ListBox>
-        <ListBox Margin="302,111,302,277">
 
-            <ListBoxItem Height="31" BorderBrush="{DynamicResource {x:Static SystemColors.ActiveBorderBrushKey}}" Background="{DynamicResource {x:Static SystemColors.ActiveBorderBrushKey}}">
-                <CheckBox Content="CheckBox" RenderTransformOrigin="0.496,0.466" Height="25" Width="182" FontSize="20" Checked="CheckBox_Checked"/>
-            </ListBoxItem>
+            </StackPanel>
+            <StackPanel Orientation="Vertical" Margin="2,2,2,2" Grid.Row="1" Grid.Column="3">
+                <CheckBox x:Name="checklutador4" 
+                Content="Lutador4" 
+                RenderTransformOrigin="0.496,0.466" FontSize="20" 
+                Checked="Checklutador4_Checked"
+                Unchecked="Checklutador4_Unchecked"
+                Foreground="Black" Background="White"/>
+                <TextBox x:Name="Txtlutador4" Text="TextBox" TextWrapping="Wrap" TextChanged="Txtlutador4_TextChanged"/>
 
-            <ListBoxItem Height="32">
 
-            </ListBoxItem>
-            <ListBoxItem Height="32">
+            </StackPanel>
+            <StackPanel Orientation="Vertical" Margin="2,2,2,2" Grid.Row="1" Grid.Column="4">
+                <CheckBox x:Name="checklutador5" 
+                    Content="Lutador5" 
+                    RenderTransformOrigin="0.496,0.466" FontSize="20" 
+                    Checked="Checklutador5_Checked"
+                    Unchecked="Checklutador5_Unchecked"
+                    Foreground="Black" Background="White"/>
+                <TextBox x:Name="Txtlutador5" Text="TextBox" TextWrapping="Wrap" TextChanged="Txtlutador5_TextChanged"/>
 
-            </ListBoxItem>
-            <ListBoxItem Height="32">
 
-            </ListBoxItem>
-            <ListBoxItem Height="32">
+            </StackPanel>
+            <StackPanel Orientation="Vertical" Margin="2,2,2,2" Grid.Row="1" Grid.Column="5" >
+                <CheckBox x:Name="checklutador6" 
+                    Content="Lutador6" 
+                    RenderTransformOrigin="0.496,0.466" FontSize="20" 
+                    Checked="Checklutador6_Checked"
+                    Unchecked="Checklutador6_Unchecked"
+                    Foreground="Black" Background="White"/>
+                <TextBox x:Name="Txtlutador6" Text="TextBox" TextWrapping="Wrap" TextChanged="Txtlutador6_TextChanged"/>
 
-            </ListBoxItem>
-            <ListBoxItem Height="32" Selected="ListBoxItem_Selected">
 
-            </ListBoxItem>
-        </ListBox>
+            </StackPanel>
+            <StackPanel Orientation="Vertical" Margin="2,2,2,2" Grid.Row="2" >
+                <CheckBox x:Name="checklutador7" 
+                    Content="Lutador7" 
+                    RenderTransformOrigin="0.496,0.466" FontSize="20" 
+                    Checked="Checklutador7_Checked"
+                    Unchecked="Checklutador7_Unchecked"
+                    Foreground="Black" Background="White"/>
+                <TextBox x:Name="Txtlutador7" Text="TextBox" TextWrapping="Wrap" TextChanged="Txtlutador7_TextChanged"/>
 
-    </Grid>
+
+            </StackPanel>
+            <StackPanel Orientation="Vertical" Margin="2,2,2,2" Grid.Row="2" Grid.Column="1" >
+                <CheckBox x:Name="checklutador8" 
+                    Content="Lutador8" 
+                    RenderTransformOrigin="0.496,0.466" FontSize="20" 
+                    Checked="checklutador8_Checked"
+                    Unchecked="checklutador8_Unchecked"
+                    Foreground="Black" Background="White"/>
+                <TextBox x:Name="Txtlutador8" Text="TextBox" TextWrapping="Wrap" TextChanged="Txtlutador8_TextChanged"/>
+
+
+            </StackPanel>
+            <StackPanel Orientation="Vertical" Margin="2,2,2,2" Grid.Row="2" Grid.Column="2" >
+                <CheckBox x:Name="checklutador9" 
+                    Content="Lutador9" 
+                    RenderTransformOrigin="0.496,0.466" FontSize="20" 
+                    Checked="checklutador9_Checked"
+                    Unchecked="checklutador9_Unchecked"
+                    Foreground="Black" Background="White"/>
+                <TextBox x:Name="Txtlutador9" Text="TextBox" TextWrapping="Wrap" TextChanged="Txtlutador9_TextChanged"/>
+
+
+            </StackPanel>
+            <StackPanel Orientation="Vertical" Margin="2,2,2,2" Grid.Row="2" Grid.Column="3" >
+                <CheckBox x:Name="checklutador10" 
+                    Content="Lutador10" 
+                    RenderTransformOrigin="0.496,0.466" FontSize="20" 
+                    Checked="checklutador10_Checked"
+                    Unchecked="checklutador10_Unchecked"
+                    Foreground="Black" Background="White"/>
+                <TextBox x:Name="Txtlutador10" Text="TextBox" TextWrapping="Wrap" TextChanged="Txtlutador10_TextChanged"/>
+
+
+            </StackPanel>
+            <StackPanel Orientation="Vertical" Margin="2,2,2,2" Grid.Row="2" Grid.Column="4" >
+                <CheckBox x:Name="checklutador11" 
+                    Content="Lutador11" 
+                    RenderTransformOrigin="0.496,0.466" FontSize="20" 
+                    Checked="checklutador11_Checked"
+                    Unchecked="checklutador11_Unchecked"
+                    Foreground="Black" Background="White"/>
+                <TextBox x:Name="Txtlutador11" Text="TextBox" TextWrapping="Wrap" TextChanged="Txtlutador11_TextChanged"/>
+
+
+            </StackPanel>
+            <StackPanel Orientation="Vertical" Margin="2,2,2,2" Grid.Row="2" Grid.Column="5" >
+                <CheckBox x:Name="checklutador12" 
+                    Content="Lutador12" 
+                    RenderTransformOrigin="0.496,0.466" FontSize="20" 
+                    Checked="checklutador12_Checked"
+                    Unchecked="checklutador12_Unchecked"
+                    Foreground="Black" Background="White"/>
+                <TextBox x:Name="Txtlutador12" Text="TextBox" TextWrapping="Wrap" TextChanged="Txtlutador12_TextChanged"/>
+
+
+            </StackPanel>
+            <StackPanel Orientation="Vertical" Margin="2,2,2,2" Grid.Row="3">
+                <CheckBox x:Name="checklutador13" 
+                    Content="Lutador13" 
+                    RenderTransformOrigin="0.496,0.466" FontSize="20" 
+                    Checked="checklutador13_Checked"
+                    Unchecked="checklutador13_Unchecked"
+                    Foreground="Black" Background="White"/>
+                <TextBox x:Name="Txtlutador13" Text="TextBox" TextWrapping="Wrap" TextChanged="Txtlutador13_TextChanged"/>
+
+
+            </StackPanel>
+            <StackPanel Orientation="Vertical" Margin="2,2,2,2" Grid.Row="3" Grid.Column="1">
+                <CheckBox x:Name="checklutador14" 
+                    Content="Lutador14" 
+                    RenderTransformOrigin="0.496,0.466" FontSize="20" 
+                    Checked="checklutador14_Checked"
+                    Unchecked="checklutador14_Unchecked"
+                    Foreground="Black" Background="White"/>
+                <TextBox x:Name="Txtlutador14" Text="TextBox" TextWrapping="Wrap" TextChanged="Txtlutador14_TextChanged"/>
+
+
+            </StackPanel>
+            <StackPanel Orientation="Vertical" Margin="2,2,2,2" Grid.Row="3" Grid.Column="2">
+                <CheckBox x:Name="checklutador15" 
+                    Content="Lutador15" 
+                    RenderTransformOrigin="0.496,0.466" FontSize="20" 
+                    Checked="checklutador15_Checked"
+                    Unchecked="checklutador15_Unchecked"
+                    Foreground="Black" Background="White"/>
+                <TextBox x:Name="Txtlutador15" Text="TextBox" TextWrapping="Wrap" TextChanged="Txtlutador15_TextChanged"/>
+
+
+            </StackPanel>
+            <StackPanel Orientation="Vertical" Margin="2,2,2,2" Grid.Row="3" Grid.Column="3">
+                <CheckBox x:Name="checklutador16" 
+                    Content="Lutador16" 
+                    RenderTransformOrigin="0.496,0.466" FontSize="20" 
+                    Checked="checklutador16_Checked"
+                    Unchecked="checklutador16_Unchecked"
+                    Foreground="Black" Background="White"/>
+                <TextBox x:Name="Txtlutador16" Text="TextBox" TextWrapping="Wrap" TextChanged="Txtlutador16_TextChanged"/>
+
+
+            </StackPanel>
+            <StackPanel Orientation="Vertical" Margin="2,2,2,2" Grid.Row="3" Grid.Column="4">
+                <CheckBox x:Name="checklutador17" 
+                    Content="Lutador17" 
+                    RenderTransformOrigin="0.496,0.466" FontSize="20" 
+                    Checked="checklutador17_Checked"
+                    Unchecked="checklutador17_Unchecked"
+                    Foreground="Black" Background="White"/>
+                <TextBox x:Name="Txtlutador17" Text="TextBox" TextWrapping="Wrap" TextChanged="Txtlutador17_TextChanged"/>
+
+
+            </StackPanel>
+            <StackPanel Orientation="Vertical" Margin="2,2,2,2" Grid.Row="3" Grid.Column="5" Grid.RowSpan="2" >
+                <CheckBox x:Name="checklutador18" 
+                    Content="Lutador18" 
+                    RenderTransformOrigin="0.496,0.466" FontSize="20" 
+                    Checked="checklutador18_Checked"
+                    Unchecked="checklutador18_Unchecked"
+                    Foreground="Black" Background="White"/>
+                <TextBox x:Name="Txtlutador18" Text="TextBox" TextWrapping="Wrap" TextChanged="Txtlutador18_TextChanged"/>
+
+
+            </StackPanel>
+            <StackPanel Orientation="Vertical" Margin="2,2,2,2" Grid.Row="4" >
+                <CheckBox x:Name="checklutador19" 
+                    Content="Lutador19" 
+                    RenderTransformOrigin="0.496,0.466" FontSize="20" 
+                    Checked="checklutador19_Checked"
+                    Unchecked="checklutador19_Unchecked"
+                    Foreground="Black" Background="White"/>
+                <TextBox x:Name="Txtlutador19" Text="TextBox" TextWrapping="Wrap" TextChanged="Txtlutador19_TextChanged"/>
+
+
+            </StackPanel>
+            <StackPanel Orientation="Vertical" Margin="2,2,2,2" Grid.Row="4" Grid.Column="1" >
+                <CheckBox x:Name="checklutador20" 
+                    Content="Lutador20" 
+                    RenderTransformOrigin="0.496,0.466" FontSize="20" 
+                    Checked="checklutador20_Checked"
+                    Unchecked="checklutador20_Unchecked"
+                    Foreground="Black" Background="White"/>
+                <TextBox x:Name="Txtlutador20" Text="TextBox" TextWrapping="Wrap" TextChanged="Txtlutador20_TextChanged"/>
+
+
+            </StackPanel>
+            <StackPanel Orientation="Vertical" Margin="2,2,2,2" Grid.Row="4" Grid.Column="2" >
+                <CheckBox x:Name="checklutador21" 
+                    Content="Lutador21" 
+                    RenderTransformOrigin="0.496,0.466" FontSize="20" 
+                    Checked="checklutador21_Checked"
+                    Unchecked="checklutador21_Unchecked"
+                    Foreground="Black" Background="White"/>
+                <TextBox x:Name="Txtlutador21" Text="TextBox" TextWrapping="Wrap" TextChanged="Txtlutador21_TextChanged"/>
+
+
+            </StackPanel>
+            <StackPanel Orientation="Vertical" Margin="2,2,2,2" Grid.Row="4" Grid.Column="3" >
+                <CheckBox x:Name="checklutador22" 
+                    Content="Lutador22" 
+                    RenderTransformOrigin="0.496,0.466" FontSize="20" 
+                    Checked="checklutador22_Checked"
+                    Unchecked="checklutador22_Unchecked"
+                    Foreground="Black" Background="White"/>
+                <TextBox x:Name="Txtlutador22" Text="TextBox" TextWrapping="Wrap" TextChanged="Txtlutador22_TextChanged"/>
+
+
+            </StackPanel>
+            <StackPanel Orientation="Vertical" Margin="2,2,2,2" Grid.Row="4" Grid.Column="4" >
+                <CheckBox x:Name="checklutador23" 
+                    Content="Lutador23" 
+                    RenderTransformOrigin="0.496,0.466" FontSize="20" 
+                    Checked="checklutador23_Checked"
+                    Unchecked="checklutador23_Unchecked"
+                    Foreground="Black" Background="White"/>
+                <TextBox x:Name="Txtlutador23" Text="TextBox" TextWrapping="Wrap" TextChanged="Txtlutador23_TextChanged"/>
+
+
+            </StackPanel>
+            <StackPanel Orientation="Vertical" Margin="2,2,2,2" Grid.Row="4" Grid.Column="5" >
+                <CheckBox x:Name="checklutador24" 
+                    Content="Lutador24" 
+                    RenderTransformOrigin="0.496,0.466" FontSize="20" 
+                    Checked="checklutador24_Checked"
+                    Unchecked="checklutador24_Unchecked"
+                    Foreground="Black" Background="White"/>
+                <TextBox x:Name="Txtlutador24" Text="TextBox" TextWrapping="Wrap" TextChanged="Txtlutador24_TextChanged"/>
+
+
+            </StackPanel>
+            <StackPanel Orientation="Vertical" Margin="2,2,2,2" Grid.Row="5">
+                <CheckBox x:Name="checklutador25" 
+                    Content="Lutador25" 
+                    RenderTransformOrigin="0.496,0.466" FontSize="20" 
+                    Checked="checklutador25_Checked"
+                    Unchecked="checklutador25_Unchecked"
+                    Foreground="Black" Background="White"/>
+                <TextBox x:Name="Txtlutador25" Text="TextBox" TextWrapping="Wrap" TextChanged="Txtlutador25_TextChanged"/>
+
+
+            </StackPanel>
+            <StackPanel Orientation="Vertical" Margin="2,2,2,2" Grid.Row="5" Grid.Column="1">
+                <CheckBox x:Name="checklutador26" 
+                    Content="Lutador26" 
+                    RenderTransformOrigin="0.496,0.466" FontSize="20" 
+                    Checked="checklutador26_Checked"
+                    Unchecked="checklutador26_Unchecked"
+                    Foreground="Black" Background="White"/>
+                <TextBox x:Name="Txtlutador26" Text="TextBox" TextWrapping="Wrap" TextChanged="Txtlutador26_TextChanged"/>
+
+
+            </StackPanel>
+            <StackPanel Orientation="Vertical" Margin="2,2,2,2" Grid.Row="5" Grid.Column="2">
+                <CheckBox x:Name="checklutador27" 
+                    Content="Lutador27" 
+                    RenderTransformOrigin="0.496,0.466" FontSize="20" 
+                    Checked="checklutador27_Checked"
+                    Unchecked="checklutador27_Unchecked"
+                    Foreground="Black" Background="White"/>
+                <TextBox x:Name="Txtlutador27" Text="TextBox" TextWrapping="Wrap" TextChanged="Txtlutador27_TextChanged"/>
+
+
+            </StackPanel>
+            <StackPanel Orientation="Vertical" Margin="2,2,2,2" Grid.Row="5" Grid.Column="3">
+                <CheckBox x:Name="checklutador28" 
+                    Content="Lutador28" 
+                    RenderTransformOrigin="0.496,0.466" FontSize="20" 
+                    Checked="checklutador28_Checked"
+                    Unchecked="checklutador28_Unchecked"
+                    Foreground="Black" Background="White"/>
+                <TextBox x:Name="Txtlutador28" Text="TextBox" TextWrapping="Wrap" TextChanged="Txtlutador28_TextChanged"/>
+
+
+            </StackPanel>
+            <StackPanel Orientation="Vertical" Margin="2,2,2,2" Grid.Row="5" Grid.Column="4">
+                <CheckBox x:Name="checklutador29" 
+                    Content="Lutador29" 
+                    RenderTransformOrigin="0.496,0.466" FontSize="20" 
+                    Checked="checklutador29_Checked"
+                    Unchecked="checklutador29_Unchecked"
+                    Foreground="Black" Background="White"/>
+                <TextBox x:Name="Txtlutador29" Text="TextBox" TextWrapping="Wrap" TextChanged="Txtlutador29_TextChanged"/>
+
+
+            </StackPanel>
+            <StackPanel Orientation="Vertical" Margin="2,2,2,2" Grid.Row="5" Grid.Column="5" >
+                <CheckBox x:Name="checklutador30" 
+                    Content="Lutador30" 
+                    RenderTransformOrigin="0.496,0.466" FontSize="20" 
+                    Checked="checklutador30_Checked"
+                    Unchecked="checklutador30_Unchecked"
+                    Foreground="Black" Background="White"/>
+                <TextBox x:Name="Txtlutador30" Text="TextBox" TextWrapping="Wrap" TextChanged="Txtlutador30_TextChanged"/>
+
+
+            </StackPanel>
+            <StackPanel Orientation="Vertical" Margin="2,2,2,2" Grid.Row="6" >
+                <CheckBox x:Name="checklutador31" 
+                    Content="Lutador31" 
+                    RenderTransformOrigin="0.496,0.466" FontSize="20" 
+                    Checked="checklutador31_Checked"
+                    Unchecked="checklutador31_Unchecked"
+                    Foreground="Black" Background="White"/>
+                <TextBox x:Name="Txtlutador31" Text="TextBox" TextWrapping="Wrap" TextChanged="Txtlutador31_TextChanged"/>
+
+
+            </StackPanel>
+            <StackPanel Orientation="Vertical" Margin="2,2,2,2" Grid.Row="6" Grid.Column="1" >
+                <CheckBox x:Name="checklutador32" 
+                    Content="Lutador32" 
+                    RenderTransformOrigin="0.496,0.466" FontSize="20" 
+                    Checked="checklutador32_Checked"
+                    Unchecked="checklutador32_Unchecked"
+                    Foreground="Black" Background="White"/>
+                <TextBox x:Name="Txtlutador32" Text="TextBox" TextWrapping="Wrap" TextChanged="Txtlutador32_TextChanged"/>
+
+
+            </StackPanel>
+            <StackPanel Orientation="Vertical" Margin="2,2,2,2" Grid.Row="6" Grid.Column="2" >
+                <CheckBox x:Name="checklutador33" 
+                    Content="Lutador33" 
+                    RenderTransformOrigin="0.496,0.466" FontSize="20" 
+                    Checked="checklutador33_Checked"
+                    Unchecked="checklutador33_Unchecked"
+                    Foreground="Black" Background="White"/>
+                <TextBox x:Name="Txtlutador33" Text="TextBox" TextWrapping="Wrap" TextChanged="Txtlutador33_TextChanged"/>
+
+
+            </StackPanel>
+            <StackPanel Orientation="Vertical" Margin="2,2,2,2" Grid.Row="6" Grid.Column="3" >
+                <CheckBox x:Name="checklutador34" 
+                    Content="Lutador34" 
+                    RenderTransformOrigin="0.496,0.466" FontSize="20" 
+                    Checked="checklutador34_Checked"
+                    Unchecked="checklutador34_Unchecked"
+                    Foreground="Black" Background="White"/>
+                <TextBox x:Name="Txtlutador34" Text="TextBox" TextWrapping="Wrap" TextChanged="Txtlutador34_TextChanged"/>
+
+
+            </StackPanel>
+            <StackPanel Orientation="Vertical" Margin="2,2,2,2" Grid.Row="6" Grid.Column="4" >
+                <CheckBox x:Name="checklutador35" 
+                    Content="Lutador35" 
+                    RenderTransformOrigin="0.496,0.466" FontSize="20" 
+                    Checked="checklutador35_Checked"
+                    Unchecked="checklutador35_Unchecked"
+                    Foreground="Black" Background="White"/>
+                <TextBox x:Name="Txtlutador35" Text="TextBox" TextWrapping="Wrap" TextChanged="Txtlutador35_TextChanged"/>
+
+
+            </StackPanel>
+            <StackPanel Orientation="Vertical" Margin="2,2,2,2" Grid.Row="6" Grid.Column="5" >
+                <CheckBox x:Name="checklutador36" 
+                    Content="Lutador36" 
+                    RenderTransformOrigin="0.496,0.466" FontSize="20" 
+                    Checked="checklutador36_Checked"
+                    Unchecked="checklutador36_Unchecked"
+                    Foreground="Black" Background="White"/>
+                <TextBox x:Name="Txtlutador36" Text="TextBox" TextWrapping="Wrap" TextChanged="Txtlutador36_TextChanged"/>
+
+
+            </StackPanel>
+            <StackPanel Orientation="Vertical" Margin="2,2,2,2" Grid.Row="7" >
+                <CheckBox x:Name="checklutador37" 
+                    Content="Lutador37" 
+                    RenderTransformOrigin="0.496,0.466" FontSize="20" 
+                    Checked="checklutador37_Checked"
+                    Unchecked="checklutador37_Unchecked"
+                    Foreground="Black" Background="White"/>
+                <TextBox x:Name="Txtlutador37" Text="TextBox" TextWrapping="Wrap" TextChanged="Txtlutador37_TextChanged"/>
+
+
+            </StackPanel>
+        </Grid>
+    </ScrollViewer>
 </Window>
