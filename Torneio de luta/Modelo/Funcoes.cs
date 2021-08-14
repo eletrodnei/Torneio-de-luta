@@ -1,13 +1,15 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 
 namespace Torneio_de_luta.Modelo
 {
     class Funcoes
     {
-        public static List<Modelo.Lutadores> Ordenar(List<Modelo.Lutadores> lutadoresSelecionados)
+        public static void Ordenar(List<Modelo.Lutadores> lutadoresSelecionados)
         {
-
-            return lutadoresSelecionados;
+            List<Modelo.Lutadores> selecionadosordenados = lutadoresSelecionados.OrderBy(lutadoresSelecionados => lutadoresSelecionados.Idade).ToList();
+         
+            
         }
     }
 }

@@ -4,9 +4,10 @@ namespace Torneio_de_luta.Modelo
 {
     class Regras
     {
-        public static List<Modelo.Lutadores> Ordenar(List<Modelo.Lutadores> lutadoresSelecionados)
+        public static List<Modelo.Lutadores> InicioDosJogos(List<Modelo.Lutadores> lutadoresSelecionados)
         {
-
+            Modelo.Funcoes.Ordenar(lutadoresSelecionados);
+            
             return lutadoresSelecionados;
         }
     }

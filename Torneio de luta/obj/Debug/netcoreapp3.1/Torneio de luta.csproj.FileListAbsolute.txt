@@ -40,3 +40,5 @@ C:\Users\Rodnei\backup HD FG 01_08_21\Rodnei\OneDriveeletrodnei\C# projetos\Torn
 C:\Users\Rodnei\backup HD FG 01_08_21\Rodnei\OneDriveeletrodnei\C# projetos\Torneio-de-luta\Torneio de luta\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 C:\Users\Rodnei\backup HD FG 01_08_21\Rodnei\OneDriveeletrodnei\C# projetos\Torneio-de-luta\Torneio de luta\obj\Debug\netcoreapp3.1\Torneio de luta.csproj.AssemblyReference.cache
 C:\Users\Rodnei\backup HD FG 01_08_21\Rodnei\OneDriveeletrodnei\C# projetos\Torneio-de-luta\Torneio de luta\obj\Debug\netcoreapp3.1\Torneio de luta.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rodnei\backup HD FG 01_08_21\Rodnei\OneDriveeletrodnei\C# projetos\Torneio-de-luta\Torneio de luta\obj\Debug\netcoreapp3.1\Visao\Resultado.g.cs
+C:\Users\Rodnei\backup HD FG 01_08_21\Rodnei\OneDriveeletrodnei\C# projetos\Torneio-de-luta\Torneio de luta\obj\Debug\netcoreapp3.1\Visao\Resultado.baml

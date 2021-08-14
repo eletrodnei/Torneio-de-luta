@@ -1,0 +1,15 @@
+﻿<Window x:Class="Torneio_de_luta.Visao.Resultado"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Torneio_de_luta.Visao"
+        mc:Ignorable="d"
+        WindowState="Maximized"
+        Title="Resultado" Height="1000" Width="1200">
+    <Grid>
+        <Label Content="RESULTADO" HorizontalAlignment="Center" Margin="0,214,0,0" VerticalAlignment="Top" Height="68" Width="304" FontSize="48" FontFamily="Arial" FontWeight="Bold" FontStyle="Normal" BorderThickness="1,1,1,1" ClipToBounds="True"/>
+        <Label x:Name="LabResultado" Content="Label" HorizontalAlignment="Center" Margin="0,322,0,0" VerticalAlignment="Top" Height="175" Width="448" Loaded="LabResultado_Loaded" FontFamily="Arial" FontSize="36" BorderThickness="6,6,6,6" Background="White" SnapsToDevicePixels="True" BorderBrush="Black"/>
+
+    </Grid>
+</Window>

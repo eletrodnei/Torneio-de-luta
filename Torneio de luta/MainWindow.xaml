@@ -1,4 +1,4 @@
-﻿<Window x:Class="Torneio_de_luta.MainWindow"
+﻿<Window x:Name="Principal" x:Class="Torneio_de_luta.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
@@ -31,15 +31,15 @@
                 <RowDefinition Height="153"/>
                 <RowDefinition Height="76.2"/>
             </Grid.RowDefinitions>
-            <Button Content="Iniciar" Grid.Row="0" Grid.Column="0" Margin="11,10,70,10" Click="Button_Click" RenderTransformOrigin="0.52,0.489"/>
+            <Button x:Name="BotaoIniciar" Content="Iniciar" Grid.Row="0" Grid.Column="0" Margin="11,10,70,10" Click="Button_Click" RenderTransformOrigin="0.52,0.489" BorderThickness="5,5,5,5"/>
             <StackPanel Orientation="Vertical" Margin="2,2,2,2" Grid.Row="1">
                 <CheckBox x:Name="checklutador1" 
                           Content="Lutador1" 
                           RenderTransformOrigin="0.496,0.466" FontSize="20" 
                           Checked="Checklutador1_Checked"
                           Unchecked="Checklutador1_Unchecked"
-                          Foreground="Black" Background="White"/>
-                <TextBox x:Name="Txtlutador1" Text="TextBox" TextWrapping="Wrap" TextChanged="Txtlutador1_TextChanged"/>
+                          Foreground="Black" Background="White" BorderThickness="1,1,1,1" UseLayoutRounding="False" Padding="4,-1,0,0" BorderBrush="Black"/>
+                <Label x:Name="Lablutador1" BorderBrush="Black" BorderThickness="1,1,1,1"  />
 
 
             </StackPanel>
@@ -51,8 +51,7 @@
                           Checked="Checklutador2_Checked"
                           Unchecked="Checklutador2_Unchecked"
                           Foreground="Black" Background="White"/>
-                <TextBox x:Name="Txtlutador2" Text="TextBox" TextWrapping="Wrap" TextChanged="Txtlutador2_TextChanged"/>
-
+                <Label x:Name="Lablutador2" BorderBrush="Black" BorderThickness="1,1,1,1"  />
 
             </StackPanel>
             <StackPanel Orientation="Vertical" Margin="2,2,2,2" Grid.Row="1" Grid.Column="2">
@@ -62,7 +61,7 @@
                 Checked="Checklutador3_Checked"
                 Unchecked="Checklutador3_Unchecked"
                 Foreground="Black" Background="White"/>
-                <TextBox x:Name="Txtlutador3" Text="TextBox" TextWrapping="Wrap" TextChanged="Txtlutador3_TextChanged"/>
+                <Label x:Name="Lablutador3" BorderBrush="Black" BorderThickness="1,1,1,1"  />
 
 
             </StackPanel>
@@ -73,7 +72,7 @@
                 Checked="Checklutador4_Checked"
                 Unchecked="Checklutador4_Unchecked"
                 Foreground="Black" Background="White"/>
-                <TextBox x:Name="Txtlutador4" Text="TextBox" TextWrapping="Wrap" TextChanged="Txtlutador4_TextChanged"/>
+                <Label x:Name="Lablutador4" BorderBrush="Black" BorderThickness="1,1,1,1"  />
 
 
             </StackPanel>
@@ -84,7 +83,7 @@
                     Checked="Checklutador5_Checked"
                     Unchecked="Checklutador5_Unchecked"
                     Foreground="Black" Background="White"/>
-                <TextBox x:Name="Txtlutador5" Text="TextBox" TextWrapping="Wrap" TextChanged="Txtlutador5_TextChanged"/>
+                <Label x:Name="Lablutador5" BorderBrush="Black" BorderThickness="1,1,1,1"  />
 
 
             </StackPanel>
@@ -95,7 +94,7 @@
                     Checked="Checklutador6_Checked"
                     Unchecked="Checklutador6_Unchecked"
                     Foreground="Black" Background="White"/>
-                <TextBox x:Name="Txtlutador6" Text="TextBox" TextWrapping="Wrap" TextChanged="Txtlutador6_TextChanged"/>
+                <Label x:Name="Lablutador6" BorderBrush="Black" BorderThickness="1,1,1,1"  />
 
 
             </StackPanel>
@@ -106,7 +105,7 @@
                     Checked="Checklutador7_Checked"
                     Unchecked="Checklutador7_Unchecked"
                     Foreground="Black" Background="White"/>
-                <TextBox x:Name="Txtlutador7" Text="TextBox" TextWrapping="Wrap" TextChanged="Txtlutador7_TextChanged"/>
+                <Label x:Name="Lablutador7" BorderBrush="Black" BorderThickness="1,1,1,1"  />
 
 
             </StackPanel>
@@ -117,7 +116,7 @@
                     Checked="checklutador8_Checked"
                     Unchecked="checklutador8_Unchecked"
                     Foreground="Black" Background="White"/>
-                <TextBox x:Name="Txtlutador8" Text="TextBox" TextWrapping="Wrap" TextChanged="Txtlutador8_TextChanged"/>
+                <Label x:Name="Lablutador8" BorderBrush="Black" BorderThickness="1,1,1,1"  />
 
 
             </StackPanel>
@@ -128,7 +127,7 @@
                     Checked="checklutador9_Checked"
                     Unchecked="checklutador9_Unchecked"
                     Foreground="Black" Background="White"/>
-                <TextBox x:Name="Txtlutador9" Text="TextBox" TextWrapping="Wrap" TextChanged="Txtlutador9_TextChanged"/>
+                <Label x:Name="Lablutador9" BorderBrush="Black" BorderThickness="1,1,1,1"  />
 
 
             </StackPanel>
@@ -139,7 +138,7 @@
                     Checked="checklutador10_Checked"
                     Unchecked="checklutador10_Unchecked"
                     Foreground="Black" Background="White"/>
-                <TextBox x:Name="Txtlutador10" Text="TextBox" TextWrapping="Wrap" TextChanged="Txtlutador10_TextChanged"/>
+                <Label x:Name="Lablutador10" BorderBrush="Black" BorderThickness="1,1,1,1"  />
 
 
             </StackPanel>
@@ -150,7 +149,7 @@
                     Checked="checklutador11_Checked"
                     Unchecked="checklutador11_Unchecked"
                     Foreground="Black" Background="White"/>
-                <TextBox x:Name="Txtlutador11" Text="TextBox" TextWrapping="Wrap" TextChanged="Txtlutador11_TextChanged"/>
+                <Label x:Name="Lablutador11" BorderBrush="Black" BorderThickness="1,1,1,1"  />
 
 
             </StackPanel>
@@ -161,7 +160,7 @@
                     Checked="checklutador12_Checked"
                     Unchecked="checklutador12_Unchecked"
                     Foreground="Black" Background="White"/>
-                <TextBox x:Name="Txtlutador12" Text="TextBox" TextWrapping="Wrap" TextChanged="Txtlutador12_TextChanged"/>
+                <Label x:Name="Lablutador12" BorderBrush="Black" BorderThickness="1,1,1,1"  />
 
 
             </StackPanel>
@@ -172,7 +171,7 @@
                     Checked="checklutador13_Checked"
                     Unchecked="checklutador13_Unchecked"
                     Foreground="Black" Background="White"/>
-                <TextBox x:Name="Txtlutador13" Text="TextBox" TextWrapping="Wrap" TextChanged="Txtlutador13_TextChanged"/>
+                <Label x:Name="Lablutador13" BorderBrush="Black" BorderThickness="1,1,1,1"  />
 
 
             </StackPanel>
@@ -183,7 +182,7 @@
                     Checked="checklutador14_Checked"
                     Unchecked="checklutador14_Unchecked"
                     Foreground="Black" Background="White"/>
-                <TextBox x:Name="Txtlutador14" Text="TextBox" TextWrapping="Wrap" TextChanged="Txtlutador14_TextChanged"/>
+                <Label x:Name="Lablutador14" BorderBrush="Black" BorderThickness="1,1,1,1"  />
 
 
             </StackPanel>
@@ -194,7 +193,7 @@
                     Checked="checklutador15_Checked"
                     Unchecked="checklutador15_Unchecked"
                     Foreground="Black" Background="White"/>
-                <TextBox x:Name="Txtlutador15" Text="TextBox" TextWrapping="Wrap" TextChanged="Txtlutador15_TextChanged"/>
+                <Label x:Name="Lablutador15" BorderBrush="Black" BorderThickness="1,1,1,1"  />
 
 
             </StackPanel>
@@ -205,7 +204,7 @@
                     Checked="checklutador16_Checked"
                     Unchecked="checklutador16_Unchecked"
                     Foreground="Black" Background="White"/>
-                <TextBox x:Name="Txtlutador16" Text="TextBox" TextWrapping="Wrap" TextChanged="Txtlutador16_TextChanged"/>
+                <Label x:Name="Lablutador16" BorderBrush="Black" BorderThickness="1,1,1,1"  />
 
 
             </StackPanel>
@@ -216,7 +215,7 @@
                     Checked="checklutador17_Checked"
                     Unchecked="checklutador17_Unchecked"
                     Foreground="Black" Background="White"/>
-                <TextBox x:Name="Txtlutador17" Text="TextBox" TextWrapping="Wrap" TextChanged="Txtlutador17_TextChanged"/>
+                <Label x:Name="Lablutador17" BorderBrush="Black" BorderThickness="1,1,1,1"  />
 
 
             </StackPanel>
@@ -227,7 +226,7 @@
                     Checked="checklutador18_Checked"
                     Unchecked="checklutador18_Unchecked"
                     Foreground="Black" Background="White"/>
-                <TextBox x:Name="Txtlutador18" Text="TextBox" TextWrapping="Wrap" TextChanged="Txtlutador18_TextChanged"/>
+                <Label x:Name="Lablutador18" BorderBrush="Black" BorderThickness="1,1,1,1"  />
 
 
             </StackPanel>
@@ -238,7 +237,7 @@
                     Checked="checklutador19_Checked"
                     Unchecked="checklutador19_Unchecked"
                     Foreground="Black" Background="White"/>
-                <TextBox x:Name="Txtlutador19" Text="TextBox" TextWrapping="Wrap" TextChanged="Txtlutador19_TextChanged"/>
+                <Label x:Name="Lablutador19" BorderBrush="Black" BorderThickness="1,1,1,1"  />
 
 
             </StackPanel>
@@ -249,7 +248,7 @@
                     Checked="checklutador20_Checked"
                     Unchecked="checklutador20_Unchecked"
                     Foreground="Black" Background="White"/>
-                <TextBox x:Name="Txtlutador20" Text="TextBox" TextWrapping="Wrap" TextChanged="Txtlutador20_TextChanged"/>
+                <Label x:Name="Lablutador20" BorderBrush="Black" BorderThickness="1,1,1,1"  />
 
 
             </StackPanel>
@@ -260,7 +259,7 @@
                     Checked="checklutador21_Checked"
                     Unchecked="checklutador21_Unchecked"
                     Foreground="Black" Background="White"/>
-                <TextBox x:Name="Txtlutador21" Text="TextBox" TextWrapping="Wrap" TextChanged="Txtlutador21_TextChanged"/>
+                <Label x:Name="Lablutador21" BorderBrush="Black" BorderThickness="1,1,1,1"  />
 
 
             </StackPanel>
@@ -271,7 +270,7 @@
                     Checked="checklutador22_Checked"
                     Unchecked="checklutador22_Unchecked"
                     Foreground="Black" Background="White"/>
-                <TextBox x:Name="Txtlutador22" Text="TextBox" TextWrapping="Wrap" TextChanged="Txtlutador22_TextChanged"/>
+                <Label x:Name="Lablutador22" BorderBrush="Black" BorderThickness="1,1,1,1"  />
 
 
             </StackPanel>
@@ -282,7 +281,7 @@
                     Checked="checklutador23_Checked"
                     Unchecked="checklutador23_Unchecked"
                     Foreground="Black" Background="White"/>
-                <TextBox x:Name="Txtlutador23" Text="TextBox" TextWrapping="Wrap" TextChanged="Txtlutador23_TextChanged"/>
+                <Label x:Name="Lablutador23" BorderBrush="Black" BorderThickness="1,1,1,1"  />
 
 
             </StackPanel>
@@ -293,7 +292,7 @@
                     Checked="checklutador24_Checked"
                     Unchecked="checklutador24_Unchecked"
                     Foreground="Black" Background="White"/>
-                <TextBox x:Name="Txtlutador24" Text="TextBox" TextWrapping="Wrap" TextChanged="Txtlutador24_TextChanged"/>
+                <Label x:Name="Lablutador24" BorderBrush="Black" BorderThickness="1,1,1,1"  />
 
 
             </StackPanel>
@@ -304,7 +303,7 @@
                     Checked="checklutador25_Checked"
                     Unchecked="checklutador25_Unchecked"
                     Foreground="Black" Background="White"/>
-                <TextBox x:Name="Txtlutador25" Text="TextBox" TextWrapping="Wrap" TextChanged="Txtlutador25_TextChanged"/>
+                <Label x:Name="Lablutador25" BorderBrush="Black" BorderThickness="1,1,1,1"  />
 
 
             </StackPanel>
@@ -315,7 +314,7 @@
                     Checked="checklutador26_Checked"
                     Unchecked="checklutador26_Unchecked"
                     Foreground="Black" Background="White"/>
-                <TextBox x:Name="Txtlutador26" Text="TextBox" TextWrapping="Wrap" TextChanged="Txtlutador26_TextChanged"/>
+                <Label x:Name="Lablutador26" BorderBrush="Black" BorderThickness="1,1,1,1"  />
 
 
             </StackPanel>
@@ -326,7 +325,7 @@
                     Checked="checklutador27_Checked"
                     Unchecked="checklutador27_Unchecked"
                     Foreground="Black" Background="White"/>
-                <TextBox x:Name="Txtlutador27" Text="TextBox" TextWrapping="Wrap" TextChanged="Txtlutador27_TextChanged"/>
+                <Label x:Name="Lablutador27" BorderBrush="Black" BorderThickness="1,1,1,1"  />
 
 
             </StackPanel>
@@ -337,7 +336,7 @@
                     Checked="checklutador28_Checked"
                     Unchecked="checklutador28_Unchecked"
                     Foreground="Black" Background="White"/>
-                <TextBox x:Name="Txtlutador28" Text="TextBox" TextWrapping="Wrap" TextChanged="Txtlutador28_TextChanged"/>
+                <Label x:Name="Lablutador28" BorderBrush="Black" BorderThickness="1,1,1,1"  />
 
 
             </StackPanel>
@@ -348,7 +347,7 @@
                     Checked="checklutador29_Checked"
                     Unchecked="checklutador29_Unchecked"
                     Foreground="Black" Background="White"/>
-                <TextBox x:Name="Txtlutador29" Text="TextBox" TextWrapping="Wrap" TextChanged="Txtlutador29_TextChanged"/>
+                <Label x:Name="Lablutador29" BorderBrush="Black" BorderThickness="1,1,1,1"  />
 
 
             </StackPanel>
@@ -359,7 +358,7 @@
                     Checked="checklutador30_Checked"
                     Unchecked="checklutador30_Unchecked"
                     Foreground="Black" Background="White"/>
-                <TextBox x:Name="Txtlutador30" Text="TextBox" TextWrapping="Wrap" TextChanged="Txtlutador30_TextChanged"/>
+                <Label x:Name="Lablutador30" BorderBrush="Black" BorderThickness="1,1,1,1"  />
 
 
             </StackPanel>
@@ -370,7 +369,7 @@
                     Checked="checklutador31_Checked"
                     Unchecked="checklutador31_Unchecked"
                     Foreground="Black" Background="White"/>
-                <TextBox x:Name="Txtlutador31" Text="TextBox" TextWrapping="Wrap" TextChanged="Txtlutador31_TextChanged"/>
+                <Label x:Name="Lablutador31" BorderBrush="Black" BorderThickness="1,1,1,1"  />
 
 
             </StackPanel>
@@ -381,7 +380,7 @@
                     Checked="checklutador32_Checked"
                     Unchecked="checklutador32_Unchecked"
                     Foreground="Black" Background="White"/>
-                <TextBox x:Name="Txtlutador32" Text="TextBox" TextWrapping="Wrap" TextChanged="Txtlutador32_TextChanged"/>
+                <Label x:Name="Lablutador32" BorderBrush="Black" BorderThickness="1,1,1,1"  />
 
 
             </StackPanel>
@@ -392,7 +391,7 @@
                     Checked="checklutador33_Checked"
                     Unchecked="checklutador33_Unchecked"
                     Foreground="Black" Background="White"/>
-                <TextBox x:Name="Txtlutador33" Text="TextBox" TextWrapping="Wrap" TextChanged="Txtlutador33_TextChanged"/>
+                <Label x:Name="Lablutador33" BorderBrush="Black" BorderThickness="1,1,1,1"  />
 
 
             </StackPanel>
@@ -403,7 +402,7 @@
                     Checked="checklutador34_Checked"
                     Unchecked="checklutador34_Unchecked"
                     Foreground="Black" Background="White"/>
-                <TextBox x:Name="Txtlutador34" Text="TextBox" TextWrapping="Wrap" TextChanged="Txtlutador34_TextChanged"/>
+                <Label x:Name="Lablutador34" BorderBrush="Black" BorderThickness="1,1,1,1"  />
 
 
             </StackPanel>
@@ -414,7 +413,7 @@
                     Checked="checklutador35_Checked"
                     Unchecked="checklutador35_Unchecked"
                     Foreground="Black" Background="White"/>
-                <TextBox x:Name="Txtlutador35" Text="TextBox" TextWrapping="Wrap" TextChanged="Txtlutador35_TextChanged"/>
+                <Label x:Name="Lablutador35" BorderBrush="Black" BorderThickness="1,1,1,1"  />
 
 
             </StackPanel>
@@ -425,7 +424,7 @@
                     Checked="checklutador36_Checked"
                     Unchecked="checklutador36_Unchecked"
                     Foreground="Black" Background="White"/>
-                <TextBox x:Name="Txtlutador36" Text="TextBox" TextWrapping="Wrap" TextChanged="Txtlutador36_TextChanged"/>
+                <Label x:Name="Lablutador36" BorderBrush="Black" BorderThickness="1,1,1,1"  />
 
 
             </StackPanel>
@@ -436,7 +435,7 @@
                     Checked="checklutador37_Checked"
                     Unchecked="checklutador37_Unchecked"
                     Foreground="Black" Background="White"/>
-                <TextBox x:Name="Txtlutador37" Text="TextBox" TextWrapping="Wrap" TextChanged="Txtlutador37_TextChanged"/>
+                <Label x:Name="Lablutador37" BorderBrush="Black" BorderThickness="1,1,1,1"  />
 
 
             </StackPanel>
