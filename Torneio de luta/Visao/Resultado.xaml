@@ -10,6 +10,5 @@
     <Grid>
         <Label Content="RESULTADO" HorizontalAlignment="Center" Margin="0,214,0,0" VerticalAlignment="Top" Height="68" Width="304" FontSize="48" FontFamily="Arial" FontWeight="Bold" FontStyle="Normal" BorderThickness="1,1,1,1" ClipToBounds="True"/>
         <Label x:Name="LabResultado" Content="Label" HorizontalAlignment="Center" Margin="0,322,0,0" VerticalAlignment="Top" Height="175" Width="448" Loaded="LabResultado_Loaded" FontFamily="Arial" FontSize="36" BorderThickness="6,6,6,6" Background="White" SnapsToDevicePixels="True" BorderBrush="Black"/>
-
     </Grid>
 </Window>

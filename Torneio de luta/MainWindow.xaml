@@ -113,8 +113,8 @@
                 <CheckBox x:Name="checklutador8" 
                     Content="Lutador8" 
                     RenderTransformOrigin="0.496,0.466" FontSize="20" 
-                    Checked="checklutador8_Checked"
-                    Unchecked="checklutador8_Unchecked"
+                    Checked="Checklutador8_Checked"
+                    Unchecked="Checklutador8_Unchecked"
                     Foreground="Black" Background="White"/>
                 <Label x:Name="Lablutador8" BorderBrush="Black" BorderThickness="1,1,1,1"  />
 
@@ -124,8 +124,8 @@
                 <CheckBox x:Name="checklutador9" 
                     Content="Lutador9" 
                     RenderTransformOrigin="0.496,0.466" FontSize="20" 
-                    Checked="checklutador9_Checked"
-                    Unchecked="checklutador9_Unchecked"
+                    Checked="Checklutador9_Checked"
+                    Unchecked="Checklutador9_Unchecked"
                     Foreground="Black" Background="White"/>
                 <Label x:Name="Lablutador9" BorderBrush="Black" BorderThickness="1,1,1,1"  />
 
@@ -135,8 +135,8 @@
                 <CheckBox x:Name="checklutador10" 
                     Content="Lutador10" 
                     RenderTransformOrigin="0.496,0.466" FontSize="20" 
-                    Checked="checklutador10_Checked"
-                    Unchecked="checklutador10_Unchecked"
+                    Checked="Checklutador10_Checked"
+                    Unchecked="Checklutador10_Unchecked"
                     Foreground="Black" Background="White"/>
                 <Label x:Name="Lablutador10" BorderBrush="Black" BorderThickness="1,1,1,1"  />
 
@@ -146,8 +146,8 @@
                 <CheckBox x:Name="checklutador11" 
                     Content="Lutador11" 
                     RenderTransformOrigin="0.496,0.466" FontSize="20" 
-                    Checked="checklutador11_Checked"
-                    Unchecked="checklutador11_Unchecked"
+                    Checked="Checklutador11_Checked"
+                    Unchecked="Checklutador11_Unchecked"
                     Foreground="Black" Background="White"/>
                 <Label x:Name="Lablutador11" BorderBrush="Black" BorderThickness="1,1,1,1"  />
 
@@ -157,8 +157,8 @@
                 <CheckBox x:Name="checklutador12" 
                     Content="Lutador12" 
                     RenderTransformOrigin="0.496,0.466" FontSize="20" 
-                    Checked="checklutador12_Checked"
-                    Unchecked="checklutador12_Unchecked"
+                    Checked="Checklutador12_Checked"
+                    Unchecked="Checklutador12_Unchecked"
                     Foreground="Black" Background="White"/>
                 <Label x:Name="Lablutador12" BorderBrush="Black" BorderThickness="1,1,1,1"  />
 
@@ -168,8 +168,8 @@
                 <CheckBox x:Name="checklutador13" 
                     Content="Lutador13" 
                     RenderTransformOrigin="0.496,0.466" FontSize="20" 
-                    Checked="checklutador13_Checked"
-                    Unchecked="checklutador13_Unchecked"
+                    Checked="Checklutador13_Checked"
+                    Unchecked="Checklutador13_Unchecked"
                     Foreground="Black" Background="White"/>
                 <Label x:Name="Lablutador13" BorderBrush="Black" BorderThickness="1,1,1,1"  />
 
@@ -179,8 +179,8 @@
                 <CheckBox x:Name="checklutador14" 
                     Content="Lutador14" 
                     RenderTransformOrigin="0.496,0.466" FontSize="20" 
-                    Checked="checklutador14_Checked"
-                    Unchecked="checklutador14_Unchecked"
+                    Checked="Checklutador14_Checked"
+                    Unchecked="Checklutador14_Unchecked"
                     Foreground="Black" Background="White"/>
                 <Label x:Name="Lablutador14" BorderBrush="Black" BorderThickness="1,1,1,1"  />
 
@@ -190,8 +190,8 @@
                 <CheckBox x:Name="checklutador15" 
                     Content="Lutador15" 
                     RenderTransformOrigin="0.496,0.466" FontSize="20" 
-                    Checked="checklutador15_Checked"
-                    Unchecked="checklutador15_Unchecked"
+                    Checked="Checklutador15_Checked"
+                    Unchecked="Checklutador15_Unchecked"
                     Foreground="Black" Background="White"/>
                 <Label x:Name="Lablutador15" BorderBrush="Black" BorderThickness="1,1,1,1"  />
 
@@ -201,8 +201,8 @@
                 <CheckBox x:Name="checklutador16" 
                     Content="Lutador16" 
                     RenderTransformOrigin="0.496,0.466" FontSize="20" 
-                    Checked="checklutador16_Checked"
-                    Unchecked="checklutador16_Unchecked"
+                    Checked="Checklutador16_Checked"
+                    Unchecked="Checklutador16_Unchecked"
                     Foreground="Black" Background="White"/>
                 <Label x:Name="Lablutador16" BorderBrush="Black" BorderThickness="1,1,1,1"  />
 
@@ -212,8 +212,8 @@
                 <CheckBox x:Name="checklutador17" 
                     Content="Lutador17" 
                     RenderTransformOrigin="0.496,0.466" FontSize="20" 
-                    Checked="checklutador17_Checked"
-                    Unchecked="checklutador17_Unchecked"
+                    Checked="Checklutador17_Checked"
+                    Unchecked="Checklutador17_Unchecked"
                     Foreground="Black" Background="White"/>
                 <Label x:Name="Lablutador17" BorderBrush="Black" BorderThickness="1,1,1,1"  />
 
@@ -223,8 +223,8 @@
                 <CheckBox x:Name="checklutador18" 
                     Content="Lutador18" 
                     RenderTransformOrigin="0.496,0.466" FontSize="20" 
-                    Checked="checklutador18_Checked"
-                    Unchecked="checklutador18_Unchecked"
+                    Checked="Checklutador18_Checked"
+                    Unchecked="Checklutador18_Unchecked"
                     Foreground="Black" Background="White"/>
                 <Label x:Name="Lablutador18" BorderBrush="Black" BorderThickness="1,1,1,1"  />
 
@@ -234,8 +234,8 @@
                 <CheckBox x:Name="checklutador19" 
                     Content="Lutador19" 
                     RenderTransformOrigin="0.496,0.466" FontSize="20" 
-                    Checked="checklutador19_Checked"
-                    Unchecked="checklutador19_Unchecked"
+                    Checked="Checklutador19_Checked"
+                    Unchecked="Checklutador19_Unchecked"
                     Foreground="Black" Background="White"/>
                 <Label x:Name="Lablutador19" BorderBrush="Black" BorderThickness="1,1,1,1"  />
 
@@ -245,8 +245,8 @@
                 <CheckBox x:Name="checklutador20" 
                     Content="Lutador20" 
                     RenderTransformOrigin="0.496,0.466" FontSize="20" 
-                    Checked="checklutador20_Checked"
-                    Unchecked="checklutador20_Unchecked"
+                    Checked="Checklutador20_Checked"
+                    Unchecked="Checklutador20_Unchecked"
                     Foreground="Black" Background="White"/>
                 <Label x:Name="Lablutador20" BorderBrush="Black" BorderThickness="1,1,1,1"  />
 
@@ -256,8 +256,8 @@
                 <CheckBox x:Name="checklutador21" 
                     Content="Lutador21" 
                     RenderTransformOrigin="0.496,0.466" FontSize="20" 
-                    Checked="checklutador21_Checked"
-                    Unchecked="checklutador21_Unchecked"
+                    Checked="Checklutador21_Checked"
+                    Unchecked="Checklutador21_Unchecked"
                     Foreground="Black" Background="White"/>
                 <Label x:Name="Lablutador21" BorderBrush="Black" BorderThickness="1,1,1,1"  />
 
@@ -267,8 +267,8 @@
                 <CheckBox x:Name="checklutador22" 
                     Content="Lutador22" 
                     RenderTransformOrigin="0.496,0.466" FontSize="20" 
-                    Checked="checklutador22_Checked"
-                    Unchecked="checklutador22_Unchecked"
+                    Checked="Checklutador22_Checked"
+                    Unchecked="Checklutador22_Unchecked"
                     Foreground="Black" Background="White"/>
                 <Label x:Name="Lablutador22" BorderBrush="Black" BorderThickness="1,1,1,1"  />
 
@@ -278,8 +278,8 @@
                 <CheckBox x:Name="checklutador23" 
                     Content="Lutador23" 
                     RenderTransformOrigin="0.496,0.466" FontSize="20" 
-                    Checked="checklutador23_Checked"
-                    Unchecked="checklutador23_Unchecked"
+                    Checked="Checklutador23_Checked"
+                    Unchecked="Checklutador23_Unchecked"
                     Foreground="Black" Background="White"/>
                 <Label x:Name="Lablutador23" BorderBrush="Black" BorderThickness="1,1,1,1"  />
 
@@ -289,8 +289,8 @@
                 <CheckBox x:Name="checklutador24" 
                     Content="Lutador24" 
                     RenderTransformOrigin="0.496,0.466" FontSize="20" 
-                    Checked="checklutador24_Checked"
-                    Unchecked="checklutador24_Unchecked"
+                    Checked="Checklutador24_Checked"
+                    Unchecked="Checklutador24_Unchecked"
                     Foreground="Black" Background="White"/>
                 <Label x:Name="Lablutador24" BorderBrush="Black" BorderThickness="1,1,1,1"  />
 
@@ -300,8 +300,8 @@
                 <CheckBox x:Name="checklutador25" 
                     Content="Lutador25" 
                     RenderTransformOrigin="0.496,0.466" FontSize="20" 
-                    Checked="checklutador25_Checked"
-                    Unchecked="checklutador25_Unchecked"
+                    Checked="Checklutador25_Checked"
+                    Unchecked="Checklutador25_Unchecked"
                     Foreground="Black" Background="White"/>
                 <Label x:Name="Lablutador25" BorderBrush="Black" BorderThickness="1,1,1,1"  />
 
@@ -311,8 +311,8 @@
                 <CheckBox x:Name="checklutador26" 
                     Content="Lutador26" 
                     RenderTransformOrigin="0.496,0.466" FontSize="20" 
-                    Checked="checklutador26_Checked"
-                    Unchecked="checklutador26_Unchecked"
+                    Checked="Checklutador26_Checked"
+                    Unchecked="Checklutador26_Unchecked"
                     Foreground="Black" Background="White"/>
                 <Label x:Name="Lablutador26" BorderBrush="Black" BorderThickness="1,1,1,1"  />
 
@@ -322,8 +322,8 @@
                 <CheckBox x:Name="checklutador27" 
                     Content="Lutador27" 
                     RenderTransformOrigin="0.496,0.466" FontSize="20" 
-                    Checked="checklutador27_Checked"
-                    Unchecked="checklutador27_Unchecked"
+                    Checked="Checklutador27_Checked"
+                    Unchecked="Checklutador27_Unchecked"
                     Foreground="Black" Background="White"/>
                 <Label x:Name="Lablutador27" BorderBrush="Black" BorderThickness="1,1,1,1"  />
 
@@ -333,8 +333,8 @@
                 <CheckBox x:Name="checklutador28" 
                     Content="Lutador28" 
                     RenderTransformOrigin="0.496,0.466" FontSize="20" 
-                    Checked="checklutador28_Checked"
-                    Unchecked="checklutador28_Unchecked"
+                    Checked="Checklutador28_Checked"
+                    Unchecked="Checklutador28_Unchecked"
                     Foreground="Black" Background="White"/>
                 <Label x:Name="Lablutador28" BorderBrush="Black" BorderThickness="1,1,1,1"  />
 
@@ -344,8 +344,8 @@
                 <CheckBox x:Name="checklutador29" 
                     Content="Lutador29" 
                     RenderTransformOrigin="0.496,0.466" FontSize="20" 
-                    Checked="checklutador29_Checked"
-                    Unchecked="checklutador29_Unchecked"
+                    Checked="Checklutador29_Checked"
+                    Unchecked="Checklutador29_Unchecked"
                     Foreground="Black" Background="White"/>
                 <Label x:Name="Lablutador29" BorderBrush="Black" BorderThickness="1,1,1,1"  />
 
@@ -355,8 +355,8 @@
                 <CheckBox x:Name="checklutador30" 
                     Content="Lutador30" 
                     RenderTransformOrigin="0.496,0.466" FontSize="20" 
-                    Checked="checklutador30_Checked"
-                    Unchecked="checklutador30_Unchecked"
+                    Checked="Checklutador30_Checked"
+                    Unchecked="Checklutador30_Unchecked"
                     Foreground="Black" Background="White"/>
                 <Label x:Name="Lablutador30" BorderBrush="Black" BorderThickness="1,1,1,1"  />
 
@@ -366,8 +366,8 @@
                 <CheckBox x:Name="checklutador31" 
                     Content="Lutador31" 
                     RenderTransformOrigin="0.496,0.466" FontSize="20" 
-                    Checked="checklutador31_Checked"
-                    Unchecked="checklutador31_Unchecked"
+                    Checked="Checklutador31_Checked"
+                    Unchecked="Checklutador31_Unchecked"
                     Foreground="Black" Background="White"/>
                 <Label x:Name="Lablutador31" BorderBrush="Black" BorderThickness="1,1,1,1"  />
 
@@ -377,8 +377,8 @@
                 <CheckBox x:Name="checklutador32" 
                     Content="Lutador32" 
                     RenderTransformOrigin="0.496,0.466" FontSize="20" 
-                    Checked="checklutador32_Checked"
-                    Unchecked="checklutador32_Unchecked"
+                    Checked="Checklutador32_Checked"
+                    Unchecked="Checklutador32_Unchecked"
                     Foreground="Black" Background="White"/>
                 <Label x:Name="Lablutador32" BorderBrush="Black" BorderThickness="1,1,1,1"  />
 
@@ -388,8 +388,8 @@
                 <CheckBox x:Name="checklutador33" 
                     Content="Lutador33" 
                     RenderTransformOrigin="0.496,0.466" FontSize="20" 
-                    Checked="checklutador33_Checked"
-                    Unchecked="checklutador33_Unchecked"
+                    Checked="Checklutador33_Checked"
+                    Unchecked="Checklutador33_Unchecked"
                     Foreground="Black" Background="White"/>
                 <Label x:Name="Lablutador33" BorderBrush="Black" BorderThickness="1,1,1,1"  />
 
@@ -399,8 +399,8 @@
                 <CheckBox x:Name="checklutador34" 
                     Content="Lutador34" 
                     RenderTransformOrigin="0.496,0.466" FontSize="20" 
-                    Checked="checklutador34_Checked"
-                    Unchecked="checklutador34_Unchecked"
+                    Checked="Checklutador34_Checked"
+                    Unchecked="Checklutador34_Unchecked"
                     Foreground="Black" Background="White"/>
                 <Label x:Name="Lablutador34" BorderBrush="Black" BorderThickness="1,1,1,1"  />
 
@@ -410,8 +410,8 @@
                 <CheckBox x:Name="checklutador35" 
                     Content="Lutador35" 
                     RenderTransformOrigin="0.496,0.466" FontSize="20" 
-                    Checked="checklutador35_Checked"
-                    Unchecked="checklutador35_Unchecked"
+                    Checked="Checklutador35_Checked"
+                    Unchecked="Checklutador35_Unchecked"
                     Foreground="Black" Background="White"/>
                 <Label x:Name="Lablutador35" BorderBrush="Black" BorderThickness="1,1,1,1"  />
 
@@ -421,8 +421,8 @@
                 <CheckBox x:Name="checklutador36" 
                     Content="Lutador36" 
                     RenderTransformOrigin="0.496,0.466" FontSize="20" 
-                    Checked="checklutador36_Checked"
-                    Unchecked="checklutador36_Unchecked"
+                    Checked="Checklutador36_Checked"
+                    Unchecked="Checklutador36_Unchecked"
                     Foreground="Black" Background="White"/>
                 <Label x:Name="Lablutador36" BorderBrush="Black" BorderThickness="1,1,1,1"  />
 
@@ -432,8 +432,8 @@
                 <CheckBox x:Name="checklutador37" 
                     Content="Lutador37" 
                     RenderTransformOrigin="0.496,0.466" FontSize="20" 
-                    Checked="checklutador37_Checked"
-                    Unchecked="checklutador37_Unchecked"
+                    Checked="Checklutador37_Checked"
+                    Unchecked="Checklutador37_Unchecked"
                     Foreground="Black" Background="White"/>
                 <Label x:Name="Lablutador37" BorderBrush="Black" BorderThickness="1,1,1,1"  />
 

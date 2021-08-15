@@ -6,7 +6,6 @@ using System.Windows.Controls;
 
 namespace Torneio_de_luta
 {
-
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
@@ -14,27 +13,22 @@ namespace Torneio_de_luta
     {
         readonly List<Modelo.Lutadores> todoslutadores;
         readonly List<Modelo.Lutadores> lutadoresselecionados;
-        List<Modelo.Lutadores> listageral;
-        List<CheckBox> checkBoxes = new List<CheckBox>();
-        List<Label> labels = new List<Label>();
-
-
+        readonly List<Modelo.Lutadores> listageral;
+        readonly List<CheckBox> checkBoxes = new List<CheckBox>();
+        readonly List<Label> labels = new List<Label>();
 
         public MainWindow()
         {
             listageral = Controle.Apidata.Lutadoresget();
-            
+
             todoslutadores = listageral.OrderBy(listageral => listageral.Id).ToList();
             InitializeComponent();
-            listComponents();
+            ListComponents();
             Insercao();
             lutadoresselecionados = new List<Modelo.Lutadores>();
-            
-
         }
 
-        
-        private void listComponents()
+        private void ListComponents()
         {
             checkBoxes.Add(checklutador1);
             checkBoxes.Add(checklutador2);
@@ -114,11 +108,10 @@ namespace Torneio_de_luta
         }
         private void Insercao()
         {
-            for (int x = 0; x<todoslutadores.Count; x++)
+            for (int x = 0; x < todoslutadores.Count; x++)
             {
                 PopulateChecks(checkBoxes[x], labels[x], todoslutadores[x]);
             }
-           
         }
 
         private void PopulateChecks(System.Windows.Controls.CheckBox checkBoxLutadorx, System.Windows.Controls.Label labelBoxLutadorx, Modelo.Lutadores lutador)
@@ -140,12 +133,11 @@ namespace Torneio_de_luta
             }
             else
             {
-            MessageBox.Show("Permitido somente 16 lutadores !!!\n" +
-            " Atualmente temos  "+lutadoresselecionados.Count+" lutadores selecionados !!!");
+                MessageBox.Show("Permitido somente 16 lutadores !!!\n" +
+                " Atualmente temos  " + lutadoresselecionados.Count + " lutadores selecionados !!!");
             }
-            
         }
-        
+
         private void Checklutador2_Checked(object sender, RoutedEventArgs e)
         {
             VerificaSelecionado(todoslutadores[1]);
@@ -216,313 +208,303 @@ namespace Torneio_de_luta
             lutadoresselecionados.Remove(todoslutadores[5]);
         }
 
-        private void checklutador8_Unchecked(object sender, RoutedEventArgs e)
+        private void Checklutador8_Unchecked(object sender, RoutedEventArgs e)
         {
             lutadoresselecionados.Remove(todoslutadores[7]);
         }
 
-        private void checklutador8_Checked(object sender, RoutedEventArgs e)
+        private void Checklutador8_Checked(object sender, RoutedEventArgs e)
         {
             VerificaSelecionado(todoslutadores[7]);
         }
 
-        private void checklutador9_Checked(object sender, RoutedEventArgs e)
+        private void Checklutador9_Checked(object sender, RoutedEventArgs e)
         {
             VerificaSelecionado(todoslutadores[8]);
         }
 
-        private void checklutador9_Unchecked(object sender, RoutedEventArgs e)
+        private void Checklutador9_Unchecked(object sender, RoutedEventArgs e)
         {
             lutadoresselecionados.Remove(todoslutadores[8]);
         }
 
-        private void checklutador12_Checked(object sender, RoutedEventArgs e)
+        private void Checklutador12_Checked(object sender, RoutedEventArgs e)
         {
             VerificaSelecionado(todoslutadores[11]);
         }
 
-        private void checklutador12_Unchecked(object sender, RoutedEventArgs e)
+        private void Checklutador12_Unchecked(object sender, RoutedEventArgs e)
         {
             lutadoresselecionados.Remove(todoslutadores[11]);
         }
 
-        private void checklutador11_Checked(object sender, RoutedEventArgs e)
+        private void Checklutador11_Checked(object sender, RoutedEventArgs e)
         {
             VerificaSelecionado(todoslutadores[10]);
         }
 
-        private void checklutador11_Unchecked(object sender, RoutedEventArgs e)
+        private void Checklutador11_Unchecked(object sender, RoutedEventArgs e)
         {
             lutadoresselecionados.Remove(todoslutadores[10]);
         }
 
-        private void checklutador10_Checked(object sender, RoutedEventArgs e)
+        private void Checklutador10_Checked(object sender, RoutedEventArgs e)
         {
             VerificaSelecionado(todoslutadores[9]);
         }
 
-        private void checklutador10_Unchecked(object sender, RoutedEventArgs e)
+        private void Checklutador10_Unchecked(object sender, RoutedEventArgs e)
         {
             lutadoresselecionados.Remove(todoslutadores[9]);
         }
 
-        private void checklutador13_Checked(object sender, RoutedEventArgs e)
+        private void Checklutador13_Checked(object sender, RoutedEventArgs e)
         {
             VerificaSelecionado(todoslutadores[12]);
         }
 
-        private void checklutador13_Unchecked(object sender, RoutedEventArgs e)
+        private void Checklutador13_Unchecked(object sender, RoutedEventArgs e)
         {
             lutadoresselecionados.Remove(todoslutadores[12]);
         }
 
-        private void checklutador14_Checked(object sender, RoutedEventArgs e)
+        private void Checklutador14_Checked(object sender, RoutedEventArgs e)
         {
             VerificaSelecionado(todoslutadores[13]);
         }
 
-        private void checklutador14_Unchecked(object sender, RoutedEventArgs e)
+        private void Checklutador14_Unchecked(object sender, RoutedEventArgs e)
         {
             lutadoresselecionados.Remove(todoslutadores[13]);
         }
 
-        private void checklutador15_Checked(object sender, RoutedEventArgs e)
+        private void Checklutador15_Checked(object sender, RoutedEventArgs e)
         {
             VerificaSelecionado(todoslutadores[14]);
         }
 
-        private void checklutador15_Unchecked(object sender, RoutedEventArgs e)
+        private void Checklutador15_Unchecked(object sender, RoutedEventArgs e)
         {
             lutadoresselecionados.Remove(todoslutadores[14]);
         }
 
-        private void checklutador16_Checked(object sender, RoutedEventArgs e)
+        private void Checklutador16_Checked(object sender, RoutedEventArgs e)
         {
             VerificaSelecionado(todoslutadores[15]);
         }
 
-        private void checklutador16_Unchecked(object sender, RoutedEventArgs e)
+        private void Checklutador16_Unchecked(object sender, RoutedEventArgs e)
         {
             lutadoresselecionados.Remove(todoslutadores[15]);
         }
 
-        private void checklutador17_Checked(object sender, RoutedEventArgs e)
+        private void Checklutador17_Checked(object sender, RoutedEventArgs e)
         {
             VerificaSelecionado(todoslutadores[16]);
         }
 
-        private void checklutador17_Unchecked(object sender, RoutedEventArgs e)
+        private void Checklutador17_Unchecked(object sender, RoutedEventArgs e)
         {
             lutadoresselecionados.Remove(todoslutadores[16]);
         }
 
-        private void checklutador18_Checked(object sender, RoutedEventArgs e)
+        private void Checklutador18_Checked(object sender, RoutedEventArgs e)
         {
             VerificaSelecionado(todoslutadores[17]);
         }
 
-        private void checklutador18_Unchecked(object sender, RoutedEventArgs e)
+        private void Checklutador18_Unchecked(object sender, RoutedEventArgs e)
         {
             lutadoresselecionados.Remove(todoslutadores[17]);
         }
 
-        private void checklutador19_Checked(object sender, RoutedEventArgs e)
+        private void Checklutador19_Checked(object sender, RoutedEventArgs e)
         {
             VerificaSelecionado(todoslutadores[18]);
         }
 
-        private void checklutador19_Unchecked(object sender, RoutedEventArgs e)
+        private void Checklutador19_Unchecked(object sender, RoutedEventArgs e)
         {
             lutadoresselecionados.Remove(todoslutadores[18]);
         }
 
-        private void checklutador20_Checked(object sender, RoutedEventArgs e)
+        private void Checklutador20_Checked(object sender, RoutedEventArgs e)
         {
             VerificaSelecionado(todoslutadores[19]);
         }
 
-        private void checklutador20_Unchecked(object sender, RoutedEventArgs e)
+        private void Checklutador20_Unchecked(object sender, RoutedEventArgs e)
         {
             lutadoresselecionados.Remove(todoslutadores[19]);
         }
 
-        private void checklutador21_Checked(object sender, RoutedEventArgs e)
+        private void Checklutador21_Checked(object sender, RoutedEventArgs e)
         {
             VerificaSelecionado(todoslutadores[20]);
         }
 
-        private void checklutador21_Unchecked(object sender, RoutedEventArgs e)
+        private void Checklutador21_Unchecked(object sender, RoutedEventArgs e)
         {
             lutadoresselecionados.Remove(todoslutadores[20]);
         }
 
-        
-        private void checklutador22_Checked(object sender, RoutedEventArgs e)
+        private void Checklutador22_Checked(object sender, RoutedEventArgs e)
         {
             VerificaSelecionado(todoslutadores[21]);
         }
 
-        private void checklutador22_Unchecked(object sender, RoutedEventArgs e)
+        private void Checklutador22_Unchecked(object sender, RoutedEventArgs e)
         {
             lutadoresselecionados.Remove(todoslutadores[21]);
         }
 
-        private void checklutador23_Checked(object sender, RoutedEventArgs e)
+        private void Checklutador23_Checked(object sender, RoutedEventArgs e)
         {
             VerificaSelecionado(todoslutadores[22]);
         }
 
-        private void checklutador23_Unchecked(object sender, RoutedEventArgs e)
+        private void Checklutador23_Unchecked(object sender, RoutedEventArgs e)
         {
             lutadoresselecionados.Remove(todoslutadores[22]);
         }
 
-        private void checklutador24_Checked(object sender, RoutedEventArgs e)
+        private void Checklutador24_Checked(object sender, RoutedEventArgs e)
         {
             VerificaSelecionado(todoslutadores[23]);
         }
 
-        private void checklutador24_Unchecked(object sender, RoutedEventArgs e)
+        private void Checklutador24_Unchecked(object sender, RoutedEventArgs e)
         {
             lutadoresselecionados.Remove(todoslutadores[23]);
         }
 
-        private void checklutador25_Checked(object sender, RoutedEventArgs e)
+        private void Checklutador25_Checked(object sender, RoutedEventArgs e)
         {
             VerificaSelecionado(todoslutadores[24]);
         }
 
-        private void checklutador25_Unchecked(object sender, RoutedEventArgs e)
+        private void Checklutador25_Unchecked(object sender, RoutedEventArgs e)
         {
             lutadoresselecionados.Remove(todoslutadores[24]);
         }
 
-        private void checklutador26_Checked(object sender, RoutedEventArgs e)
+        private void Checklutador26_Checked(object sender, RoutedEventArgs e)
         {
             VerificaSelecionado(todoslutadores[25]);
         }
 
-        private void checklutador26_Unchecked(object sender, RoutedEventArgs e)
+        private void Checklutador26_Unchecked(object sender, RoutedEventArgs e)
         {
             lutadoresselecionados.Remove(todoslutadores[25]);
         }
 
-        private void checklutador27_Checked(object sender, RoutedEventArgs e)
+        private void Checklutador27_Checked(object sender, RoutedEventArgs e)
         {
             VerificaSelecionado(todoslutadores[26]);
         }
 
-        private void checklutador27_Unchecked(object sender, RoutedEventArgs e)
+        private void Checklutador27_Unchecked(object sender, RoutedEventArgs e)
         {
             lutadoresselecionados.Remove(todoslutadores[26]);
         }
 
-        
-        private void checklutador28_Checked(object sender, RoutedEventArgs e)
+        private void Checklutador28_Checked(object sender, RoutedEventArgs e)
         {
             VerificaSelecionado(todoslutadores[27]);
         }
 
-        private void checklutador28_Unchecked(object sender, RoutedEventArgs e)
+        private void Checklutador28_Unchecked(object sender, RoutedEventArgs e)
         {
             lutadoresselecionados.Remove(todoslutadores[27]);
         }
 
-        
-        private void checklutador29_Checked(object sender, RoutedEventArgs e)
+        private void Checklutador29_Checked(object sender, RoutedEventArgs e)
         {
             VerificaSelecionado(todoslutadores[28]);
         }
 
-        private void checklutador29_Unchecked(object sender, RoutedEventArgs e)
+        private void Checklutador29_Unchecked(object sender, RoutedEventArgs e)
         {
             lutadoresselecionados.Remove(todoslutadores[28]);
         }
 
-        
-        private void checklutador30_Checked(object sender, RoutedEventArgs e)
+        private void Checklutador30_Checked(object sender, RoutedEventArgs e)
         {
             VerificaSelecionado(todoslutadores[29]);
         }
 
-        private void checklutador30_Unchecked(object sender, RoutedEventArgs e)
+        private void Checklutador30_Unchecked(object sender, RoutedEventArgs e)
         {
             lutadoresselecionados.Remove(todoslutadores[29]);
         }
 
 
-        private void checklutador31_Checked(object sender, RoutedEventArgs e)
+        private void Checklutador31_Checked(object sender, RoutedEventArgs e)
         {
             VerificaSelecionado(todoslutadores[30]);
         }
 
-        private void checklutador31_Unchecked(object sender, RoutedEventArgs e)
+        private void Checklutador31_Unchecked(object sender, RoutedEventArgs e)
         {
             lutadoresselecionados.Remove(todoslutadores[30]);
         }
 
-
-        private void checklutador32_Checked(object sender, RoutedEventArgs e)
+        private void Checklutador32_Checked(object sender, RoutedEventArgs e)
         {
             VerificaSelecionado(todoslutadores[31]);
         }
 
-        private void checklutador32_Unchecked(object sender, RoutedEventArgs e)
+        private void Checklutador32_Unchecked(object sender, RoutedEventArgs e)
         {
             lutadoresselecionados.Remove(todoslutadores[31]);
         }
 
-
-        private void checklutador33_Checked(object sender, RoutedEventArgs e)
+        private void Checklutador33_Checked(object sender, RoutedEventArgs e)
         {
             VerificaSelecionado(todoslutadores[32]);
         }
 
-        private void checklutador33_Unchecked(object sender, RoutedEventArgs e)
+        private void Checklutador33_Unchecked(object sender, RoutedEventArgs e)
         {
             lutadoresselecionados.Remove(todoslutadores[32]);
         }
 
-
-        private void checklutador34_Checked(object sender, RoutedEventArgs e)
+        private void Checklutador34_Checked(object sender, RoutedEventArgs e)
         {
             VerificaSelecionado(todoslutadores[33]);
         }
 
-        private void checklutador34_Unchecked(object sender, RoutedEventArgs e)
+        private void Checklutador34_Unchecked(object sender, RoutedEventArgs e)
         {
             lutadoresselecionados.Remove(todoslutadores[33]);
         }
 
-
-        private void checklutador35_Checked(object sender, RoutedEventArgs e)
+        private void Checklutador35_Checked(object sender, RoutedEventArgs e)
         {
             VerificaSelecionado(todoslutadores[34]);
         }
 
-        private void checklutador35_Unchecked(object sender, RoutedEventArgs e)
+        private void Checklutador35_Unchecked(object sender, RoutedEventArgs e)
         {
             lutadoresselecionados.Remove(todoslutadores[34]);
         }
 
-
-        private void checklutador36_Checked(object sender, RoutedEventArgs e)
+        private void Checklutador36_Checked(object sender, RoutedEventArgs e)
         {
             VerificaSelecionado(todoslutadores[35]);
         }
 
-        private void checklutador36_Unchecked(object sender, RoutedEventArgs e)
+        private void Checklutador36_Unchecked(object sender, RoutedEventArgs e)
         {
             lutadoresselecionados.Remove(todoslutadores[35]);
         }
 
-
-        private void checklutador37_Checked(object sender, RoutedEventArgs e)
+        private void Checklutador37_Checked(object sender, RoutedEventArgs e)
         {
             VerificaSelecionado(todoslutadores[36]);
         }
 
-        private void checklutador37_Unchecked(object sender, RoutedEventArgs e)
+        private void Checklutador37_Unchecked(object sender, RoutedEventArgs e)
         {
             lutadoresselecionados.Remove(todoslutadores[36]);
         }
@@ -542,8 +524,6 @@ namespace Torneio_de_luta
                 lutadoresselecionados.Add(selecionado);
             }
         }
-
-         
     }
 
 }
