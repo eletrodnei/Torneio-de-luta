@@ -5,7 +5,7 @@ using System.Collections.Generic;
 
 namespace Torneio_de_luta.Modelo
 {
-    class Lutadores
+    public class Lutadores
     {
 
 

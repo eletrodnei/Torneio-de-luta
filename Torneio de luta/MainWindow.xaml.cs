@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Windows;
+using System.Windows.Controls;
 
 namespace Torneio_de_luta
 {
@@ -10,57 +12,113 @@ namespace Torneio_de_luta
     /// </summary>
     public partial class MainWindow : Window
     {
-        List<Modelo.Lutadores> todoslutadores;
-        static List<Modelo.Lutadores> lutadoresselecionados;
+        readonly List<Modelo.Lutadores> todoslutadores;
+        readonly List<Modelo.Lutadores> lutadoresselecionados;
+        List<Modelo.Lutadores> listageral;
+        List<CheckBox> checkBoxes = new List<CheckBox>();
+        List<Label> labels = new List<Label>();
+
+
+
         public MainWindow()
         {
-            todoslutadores = Controle.Apidata.Lutadoresget();
-
+            listageral = Controle.Apidata.Lutadoresget();
+            
+            todoslutadores = listageral.OrderBy(listageral => listageral.Id).ToList();
             InitializeComponent();
+            listComponents();
             Insercao();
             lutadoresselecionados = new List<Modelo.Lutadores>();
+            
 
+        }
+
+        
+        private void listComponents()
+        {
+            checkBoxes.Add(checklutador1);
+            checkBoxes.Add(checklutador2);
+            checkBoxes.Add(checklutador3);
+            checkBoxes.Add(checklutador4);
+            checkBoxes.Add(checklutador5);
+            checkBoxes.Add(checklutador6);
+            checkBoxes.Add(checklutador7);
+            checkBoxes.Add(checklutador8);
+            checkBoxes.Add(checklutador9);
+            checkBoxes.Add(checklutador10);
+            checkBoxes.Add(checklutador11);
+            checkBoxes.Add(checklutador12);
+            checkBoxes.Add(checklutador13);
+            checkBoxes.Add(checklutador14);
+            checkBoxes.Add(checklutador15);
+            checkBoxes.Add(checklutador16);
+            checkBoxes.Add(checklutador17);
+            checkBoxes.Add(checklutador18);
+            checkBoxes.Add(checklutador19);
+            checkBoxes.Add(checklutador20);
+            checkBoxes.Add(checklutador21);
+            checkBoxes.Add(checklutador22);
+            checkBoxes.Add(checklutador23);
+            checkBoxes.Add(checklutador24);
+            checkBoxes.Add(checklutador25);
+            checkBoxes.Add(checklutador26);
+            checkBoxes.Add(checklutador27);
+            checkBoxes.Add(checklutador28);
+            checkBoxes.Add(checklutador29);
+            checkBoxes.Add(checklutador30);
+            checkBoxes.Add(checklutador31);
+            checkBoxes.Add(checklutador32);
+            checkBoxes.Add(checklutador33);
+            checkBoxes.Add(checklutador34);
+            checkBoxes.Add(checklutador35);
+            checkBoxes.Add(checklutador36);
+            checkBoxes.Add(checklutador37);
+
+            labels.Add(Lablutador1);
+            labels.Add(Lablutador2);
+            labels.Add(Lablutador3);
+            labels.Add(Lablutador4);
+            labels.Add(Lablutador5);
+            labels.Add(Lablutador6);
+            labels.Add(Lablutador7);
+            labels.Add(Lablutador8);
+            labels.Add(Lablutador9);
+            labels.Add(Lablutador10);
+            labels.Add(Lablutador11);
+            labels.Add(Lablutador12);
+            labels.Add(Lablutador13);
+            labels.Add(Lablutador14);
+            labels.Add(Lablutador15);
+            labels.Add(Lablutador16);
+            labels.Add(Lablutador17);
+            labels.Add(Lablutador18);
+            labels.Add(Lablutador19);
+            labels.Add(Lablutador20);
+            labels.Add(Lablutador21);
+            labels.Add(Lablutador22);
+            labels.Add(Lablutador23);
+            labels.Add(Lablutador24);
+            labels.Add(Lablutador25);
+            labels.Add(Lablutador26);
+            labels.Add(Lablutador27);
+            labels.Add(Lablutador28);
+            labels.Add(Lablutador29);
+            labels.Add(Lablutador30);
+            labels.Add(Lablutador31);
+            labels.Add(Lablutador32);
+            labels.Add(Lablutador33);
+            labels.Add(Lablutador34);
+            labels.Add(Lablutador35);
+            labels.Add(Lablutador36);
+            labels.Add(Lablutador37);
         }
         private void Insercao()
         {
-            
-            PopulateChecks(checklutador1, Lablutador1, todoslutadores[0]);
-            PopulateChecks(checklutador2, Lablutador2, todoslutadores[1]);
-            PopulateChecks(checklutador3, Lablutador3, todoslutadores[2]);
-            PopulateChecks(checklutador4, Lablutador4, todoslutadores[3]);
-            PopulateChecks(checklutador5, Lablutador5, todoslutadores[4]);
-            PopulateChecks(checklutador6, Lablutador6, todoslutadores[5]);
-            PopulateChecks(checklutador7, Lablutador7, todoslutadores[6]);
-            PopulateChecks(checklutador8, Lablutador8, todoslutadores[7]);
-            PopulateChecks(checklutador9, Lablutador9, todoslutadores[8]);
-            PopulateChecks(checklutador10, Lablutador10, todoslutadores[9]);
-            PopulateChecks(checklutador11, Lablutador11, todoslutadores[10]);
-            PopulateChecks(checklutador12, Lablutador12, todoslutadores[11]);
-            PopulateChecks(checklutador13, Lablutador13, todoslutadores[12]);
-            PopulateChecks(checklutador14, Lablutador14, todoslutadores[13]);
-            PopulateChecks(checklutador15, Lablutador15, todoslutadores[14]);
-            PopulateChecks(checklutador16, Lablutador16, todoslutadores[15]);
-            PopulateChecks(checklutador17, Lablutador17, todoslutadores[16]);
-            PopulateChecks(checklutador18, Lablutador18, todoslutadores[17]);
-            PopulateChecks(checklutador19, Lablutador19, todoslutadores[18]);
-            PopulateChecks(checklutador20, Lablutador20, todoslutadores[19]);
-            PopulateChecks(checklutador21, Lablutador21, todoslutadores[20]);
-            PopulateChecks(checklutador22, Lablutador22, todoslutadores[21]);
-            PopulateChecks(checklutador23, Lablutador23, todoslutadores[22]);
-            PopulateChecks(checklutador24, Lablutador24, todoslutadores[23]);
-            PopulateChecks(checklutador25, Lablutador25, todoslutadores[24]);
-            PopulateChecks(checklutador26, Lablutador26, todoslutadores[25]);
-            PopulateChecks(checklutador27, Lablutador27, todoslutadores[26]);
-            PopulateChecks(checklutador28, Lablutador28, todoslutadores[27]);
-            PopulateChecks(checklutador29, Lablutador29, todoslutadores[28]);
-            PopulateChecks(checklutador30, Lablutador30, todoslutadores[29]);
-            PopulateChecks(checklutador31, Lablutador31, todoslutadores[30]);
-            PopulateChecks(checklutador32, Lablutador32, todoslutadores[31]);
-            PopulateChecks(checklutador33, Lablutador33, todoslutadores[32]);
-            PopulateChecks(checklutador34, Lablutador34, todoslutadores[33]);
-            PopulateChecks(checklutador35, Lablutador35, todoslutadores[34]);
-            PopulateChecks(checklutador36, Lablutador36, todoslutadores[35]);
-            PopulateChecks(checklutador37, Lablutador37, todoslutadores[36]);
+            for (int x = 0; x<todoslutadores.Count; x++)
+            {
+                PopulateChecks(checkBoxes[x], labels[x], todoslutadores[x]);
+            }
+           
         }
 
         private void PopulateChecks(System.Windows.Controls.CheckBox checkBoxLutadorx, System.Windows.Controls.Label labelBoxLutadorx, Modelo.Lutadores lutador)
@@ -72,21 +130,22 @@ namespace Torneio_de_luta
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            var janela = new Visao.Resultado();
-            //if (lutadoresselecionados.Count == 16)
-            //{
-            Modelo.Regras.InicioDosJogos(lutadoresselecionados);
-            Principal.Close();
-            janela.ShowDialog();
-            //}
-            //else
-            //{
-            //MessageBox.Show("Permitido somente 16 lutadores !!!\n" +
-            //" Atualmente temos  "+lutadoresselecionados.Count+" lutadores selecionados !!!");
-            //}
+            Visao.Resultado janela;
+            if (lutadoresselecionados.Count == 16)
+            {
+                Modelo.Lutadores campeao = Modelo.Regras.Resultado(lutadoresselecionados);
+                janela = new Visao.Resultado(campeao);
+                Principal.Close();
+                janela.ShowDialog();
+            }
+            else
+            {
+            MessageBox.Show("Permitido somente 16 lutadores !!!\n" +
+            " Atualmente temos  "+lutadoresselecionados.Count+" lutadores selecionados !!!");
+            }
             
         }
-
+        
         private void Checklutador2_Checked(object sender, RoutedEventArgs e)
         {
             VerificaSelecionado(todoslutadores[1]);
@@ -483,5 +542,8 @@ namespace Torneio_de_luta
                 lutadoresselecionados.Add(selecionado);
             }
         }
+
+         
     }
+
 }
