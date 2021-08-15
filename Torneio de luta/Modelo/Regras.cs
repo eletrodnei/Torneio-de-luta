@@ -14,7 +14,7 @@ namespace Torneio_de_luta.Modelo
             {
                 quartasdefinal.Add(Luta(selecionadosordenados[x], selecionadosordenados[x + 1]));
             }
-           
+
             List<Lutadores> quartasdefinalordenada = quartasdefinal.OrderBy(quartasdefinal => quartasdefinal.Idade).ToList();
 
             List<Lutadores> semifinal = new List<Lutadores>();

@@ -511,7 +511,7 @@ namespace Torneio_de_luta
 
         private void VerificaSelecionado(Modelo.Lutadores selecionado)
         {
-            Boolean exist = false;
+            bool exist = false;
             foreach (Modelo.Lutadores lutador in lutadoresselecionados)
             {
                 if (lutador.Id == selecionado.Id)
