@@ -439,6 +439,7 @@
 
 
             </StackPanel>
+            <Label Content="TORNEIO DE LUTA" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="36" Grid.ColumnSpan="2" Margin="0,-5,0,0" FontWeight="Bold"/>
         </Grid>
     </ScrollViewer>
 </Window>
