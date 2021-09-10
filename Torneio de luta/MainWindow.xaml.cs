@@ -16,12 +16,12 @@ namespace Torneio_de_luta
         readonly List<Modelo.Lutadores> listageral;
         readonly List<CheckBox> checkBoxes = new List<CheckBox>();
         readonly List<Label> labels = new List<Label>();
-
+        Modelo.ILutadores lut = new Modelo.Lutadores();
+        
         public MainWindow()
         {
             listageral = Controle.Apidata.Lutadoresget();
-
-            todoslutadores = listageral.OrderBy(listageral => listageral.Id).ToList();
+            todoslutadores = listageral.OrderBy(listageral => listageral.Id1).ToList();
             InitializeComponent();
             ListComponents();
             Insercao();
@@ -116,9 +116,9 @@ namespace Torneio_de_luta
 
         private void PopulateChecks(System.Windows.Controls.CheckBox checkBoxLutadorx, System.Windows.Controls.Label labelBoxLutadorx, Modelo.Lutadores lutador)
         {
-            checkBoxLutadorx.Content = (lutador.Nome);
+            checkBoxLutadorx.Content = lutador.Nome1;
             labelBoxLutadorx.Content = "";
-            labelBoxLutadorx.Content = Modelo.Lutadores.MountLutador(lutador);
+            labelBoxLutadorx.Content = lut.MountLutador(lutador);
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
@@ -514,7 +514,7 @@ namespace Torneio_de_luta
             bool exist = false;
             foreach (Modelo.Lutadores lutador in lutadoresselecionados)
             {
-                if (lutador.Id == selecionado.Id)
+                if (lutador.Id1 == selecionado.Id1)
                 {
                     exist = true;
                 }

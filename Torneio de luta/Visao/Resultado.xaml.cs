@@ -19,7 +19,7 @@ namespace Torneio_de_luta.Visao
 
         private void LabResultado_Loaded(object sender, RoutedEventArgs e)
         {
-            LabResultado.Content = "  CAMPEÃO  " + "\n\n" + campeao.Nome;
+            LabResultado.Content = "  CAMPEÃO  " + "\n\n" + campeao.Nome1;
         }
     }
 }
