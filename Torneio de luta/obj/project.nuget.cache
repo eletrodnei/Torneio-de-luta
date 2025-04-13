@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KhvTVqxPsfR+OymCfl3CtvZGpsKTrl2Sf6UkbLYb6sK9UTqjUOz5miMyW6XI7O8IOHTM3du7f/+WCvd19des0A==",
+  "dgSpecHash": "Y+hUxnbn79I=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Rodnei\\backup HD FG 01_08_21\\Rodnei\\OneDriveeletrodnei\\C# projetos\\Torneio-de-luta\\Torneio de luta\\Torneio de luta.csproj",
+  "projectFilePath": "D:\\Projetos\\Torneio-de-luta\\Torneio de luta\\Torneio de luta.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Rodnei\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Rodnei\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
