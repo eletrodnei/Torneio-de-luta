@@ -2,9 +2,93 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/.vs
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+*.tlog
+
+# Arquivos temporários
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*.sln.docstates
+
+# Diretórios de build
+/bin/
 /obj/
-/obj
-   
-/Torneio de luta/obj/Debug/netcoreapp3.1/Torneio de luta.AssemblyInfoInputs.cache
-/Torneio de luta/obj/Debug/netcoreapp3.1/Torneio de luta.AssemblyInfo.cs
+/out/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code
+.vscode/
+
+# Arquivos de pacotes
+*.nupkg
+*.snupkg
+
+# Arquivos de lock
+project.lock.json
+project.fragment.lock.json
+
+# Arquivos gerados
+*.generated.cs
+*.AssemblyInfo.cs
+
+# Configurações locais
+appsettings.Development.json
+
+# Arquivos de dependências
+node_modules/
+bower_components/
+
+# Arquivos de sistema
+*.class
+*.pyc
+*.pyo
+*.pdb
+*.mdb
+
+# Arquivos de cache
+*.cache
+*.ilk
+*.idb
+
+# Arquivos de teste
+TestResults/
+*.trx
+*.coverage
+
+# Arquivos de publicação
+publish/
+*.publishsettings
+
+# Arquivos de IDEs
+.idea/
+*.iml
+
+# Arquivos de container
+*.dockerignore
+docker-compose.override.yml
+
+# Arquivos de backup
+*.bak
+*.old
+*.orig
+
+# Arquivos específicos do .NET
+*.dbmdl
+*.jfm
+*.pfx
+*.publish.xml
+

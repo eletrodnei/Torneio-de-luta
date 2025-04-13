@@ -7,7 +7,7 @@ namespace Torneio_de_luta.Modelo
     {
         public static Lutadores Resultado(List<Lutadores> lutadoresSelecionados)
         {
-            List<Lutadores> selecionadosordenados = lutadoresSelecionados.OrderBy(lutadoresSelecionados => lutadoresSelecionados.Idade).ToList();
+            List<Lutadores> selecionadosordenados = lutadoresSelecionados.OrderBy(lutadoresSelecionados => lutadoresSelecionados.Idade1).ToList();
 
             List<Lutadores> quartasdefinal = new List<Lutadores>();
             for (int x = 0; x < selecionadosordenados.Count; x += 2)
@@ -15,7 +15,7 @@ namespace Torneio_de_luta.Modelo
                 quartasdefinal.Add(Luta(selecionadosordenados[x], selecionadosordenados[x + 1]));
             }
 
-            List<Lutadores> quartasdefinalordenada = quartasdefinal.OrderBy(quartasdefinal => quartasdefinal.Idade).ToList();
+            List<Lutadores> quartasdefinalordenada = quartasdefinal.OrderBy(quartasdefinal => quartasdefinal.Idade1).ToList();
 
             List<Lutadores> semifinal = new List<Lutadores>();
             for (int x = 0; x < quartasdefinalordenada.Count; x += 2)
@@ -35,8 +35,8 @@ namespace Torneio_de_luta.Modelo
 
         private static Lutadores Luta(Lutadores lutador1, Lutadores lutador2)
         {
-            int Lutador1 = ((int)(((decimal)lutador1.Vitorias / lutador1.Lutas) * 100));
-            int Lutador2 = ((int)(((decimal)lutador2.Vitorias / lutador2.Lutas) * 100));
+            int Lutador1 = ((int)(((decimal)lutador1.Vitorias1 / lutador1.Lutas1) * 100));
+            int Lutador2 = ((int)(((decimal)lutador2.Vitorias1 / lutador2.Lutas1) * 100));
 
             if (Lutador1 > Lutador2)
             {
@@ -46,15 +46,15 @@ namespace Torneio_de_luta.Modelo
             {
                 return lutador2;
             }
-            else if (lutador1.ArtesMarciais.Count > lutador2.ArtesMarciais.Count)
+            else if (lutador1.ArtesMarciais1.Count > lutador2.ArtesMarciais1.Count)
             {
                 return lutador1;
             }
-            else if (lutador1.ArtesMarciais.Count < lutador2.ArtesMarciais.Count)
+            else if (lutador1.ArtesMarciais1.Count < lutador2.ArtesMarciais1.Count)
             {
                 return lutador2;
             }
-            else if (lutador1.Lutas > lutador2.Lutas)
+            else if (lutador1.Lutas1 > lutador2.Lutas1)
             {
                 return lutador1;
             }
