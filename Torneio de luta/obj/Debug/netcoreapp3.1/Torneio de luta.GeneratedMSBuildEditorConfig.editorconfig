@@ -1,3 +1,8 @@
 is_global = true
 build_property.RootNamespace = Torneio_de_luta
-build_property.ProjectDir = C:\Users\Rodnei\backup HD FG 01_08_21\Rodnei\OneDriveeletrodnei\C# projetos\Torneio-de-luta\Torneio de luta\
+build_property.ProjectDir = D:\Projetos\Torneio-de-luta\Torneio de luta\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.CsWinRTUseWindowsUIXamlProjections = false
+build_property.EffectiveAnalysisLevelStyle = 
+build_property.EnableCodeStyleSeverity = 
