@@ -2,7 +2,10 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-.vs/
-/Torneio de luta.sln
+/.vs
 /obj/
+/obj
+   
+/Torneio de luta/obj/Debug/netcoreapp3.1/Torneio de luta.AssemblyInfoInputs.cache
+/Torneio de luta/obj/Debug/netcoreapp3.1/Torneio de luta.AssemblyInfo.cs
    
