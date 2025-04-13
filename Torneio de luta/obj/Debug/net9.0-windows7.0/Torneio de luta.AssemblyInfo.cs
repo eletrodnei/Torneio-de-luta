@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Torneio de luta")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0fd1368b10f07fa0c7af38b9bc2da0a16ae3bcb1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e5385c416f662c6912a40356f868785b26701433")]
 [assembly: System.Reflection.AssemblyProductAttribute("Torneio de luta")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Torneio de luta")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
